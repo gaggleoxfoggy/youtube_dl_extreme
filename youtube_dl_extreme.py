@@ -63,6 +63,7 @@ import logging
 import youtube_dl
 from tqdm import tqdm
 
+monofix = False
 
 FORMAT = logging.Formatter('%(asctime)s :: %(levelname)s :: %(message)s',
                             datefmt='%Y-%m-%d %H:%M:%S')
@@ -169,6 +170,19 @@ FFMPEG_PRORES_LETTERBOX_CAPS = ['ffmpeg', '-i',
                                 '-c:a pcm_s24le',
                                 '-ar 48000',
                                 '{outpath}']
+FFMPEG_MONOFIX = ['rm Temp_mono.mov;',
+                 'ffmpeg', '-i',
+                 '{inpath}', 
+                 '-c:v copy',
+                 '-ac 1',
+                 'Temp_Mono.mov',
+                 '&&'
+                 'ffmpeg', '-i',
+                 'Temp_Mono.mov', 
+                 '-c:v copy',
+                 '-ac 2',
+                 '{outpath}',
+                 '&& rm Temp_Mono.mov']          
 
 def clear():
     '''Clear terminal window'''
@@ -368,9 +382,15 @@ def get_time(mode):
         bs = input('What %s point do you want? (hh:mm:ss, leave blank for default): ' % mode)
         return bs
 
+def get_mono():
+    '''Fix audio that is only showing in one channel on video that has already been downloaded'''
+    user_input = input('Did the video have audio in only one channel? (yes/no)') or 'n'
+    if not user_input[0].lower() == 'y':
+        return False
+    return True
 
 
-def encode(files, is_target_res, duration, inpoint, outpoint):
+def encode(files, is_target_res, duration, inpoint, outpoint, monofix):
     '''Encode video with captions burned in (if present).'''
     video = files['video']
     captions = files['captions']
@@ -393,6 +413,8 @@ def encode(files, is_target_res, duration, inpoint, outpoint):
     else:
         log.info('No Scale/Letterbox, No captions')
         proc = ' '.join(FFMPEG_PRORES).format(inpath=video, startpoint=inpoint, outpath=outpath, runtime=outpoint)
+    if monofix:
+        proc = ' '.join(FFMPEG_MONOFIX).format(inpath=video, outpath=outpath) 
     log_file_only.info('subprocess call: {}'.format(proc))
     p = subprocess.Popen(proc, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True, universal_newlines=True)
 
@@ -464,6 +486,8 @@ def move_files():
 
 def cleanup():
     '''Remove downloads/encodes so we can start another.'''
+    global monofix
+    monofix = False
     try:
         shutil.rmtree(DOWNLOADING)
         shutil.rmtree(ENCODING)
@@ -477,7 +501,13 @@ def local_process(path):
     shutil.copy2(path, os.path.join(DOWNLOADING, new_name))
     global starttime
     global runtime
-    starttime, runtime = get_trim()
+    global monofix
+    monofix = get_mono()
+    if not monofix:
+        starttime, runtime = get_trim()
+    else:
+        starttime = False
+        runtime = False
     files = get_files(local=True)
     return files
 
@@ -523,7 +553,7 @@ def main():
         resolution = get_resolution(metadata)
         is_target_res = is_target_resolution(resolution)
         duration = get_duration(metadata)
-        encode(files, is_target_res, duration, starttime, runtime)
+        encode(files, is_target_res, duration, starttime, runtime, monofix)
         move_files()
 
 

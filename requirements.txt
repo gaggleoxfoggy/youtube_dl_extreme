@@ -1,2 +1,2 @@
 youtube-dl
-tqdm==4.11.2
+tqdm

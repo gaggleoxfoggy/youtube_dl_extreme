@@ -1,6 +1,6 @@
 #!./.env/bin/python
 # codng: utf-8
-
+exit()
 '''Interactive command-line downloader for YouTube videos.
 
 This script downloads YouTube videos (and videos from any other

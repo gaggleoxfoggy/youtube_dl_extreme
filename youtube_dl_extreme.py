@@ -182,7 +182,12 @@ FFMPEG_MONOFIX = ['rm Temp_mono.mov;',
                  '-c:v copy',
                  '-ac 2',
                  '{outpath}',
-                 '&& rm Temp_Mono.mov']          
+                 '&& rm Temp_Mono.mov']     
+FFMPEG_NORM =   [' && ffmpeg-normalize',
+                '{outpath}',
+                '-o',
+                '{outpath}',
+                '-f']
 
 def clear():
     '''Clear terminal window'''
@@ -252,7 +257,6 @@ def strip_features(url):
     url = url.split('&force_ap=')[0]
     url = url.split('&player_embedded=')[0]
     return url
-
 
 def get_captions():
     '''Ask user if they would like to burn captions into video after download.'''
@@ -389,8 +393,14 @@ def get_mono():
         return False
     return True
 
+def get_norm():
+    '''Normalize audio levels'''
+    user_input = input('Would you like to normalize the audio level? (yes/no)') or 'n'
+    if not user_input[0].lower() == 'y':
+        return False
+    return True
 
-def encode(files, is_target_res, duration, inpoint, outpoint, monofix):
+def encode(files, is_target_res, duration, inpoint, outpoint, monofix, norm):
     '''Encode video with captions burned in (if present).'''
     video = files['video']
     captions = files['captions']
@@ -414,7 +424,11 @@ def encode(files, is_target_res, duration, inpoint, outpoint, monofix):
         log.info('No Scale/Letterbox, No captions')
         proc = ' '.join(FFMPEG_PRORES).format(inpath=video, startpoint=inpoint, outpath=outpath, runtime=outpoint)
     if monofix:
-        proc = ' '.join(FFMPEG_MONOFIX).format(inpath=video, outpath=outpath) 
+        proc = ' '.join(FFMPEG_MONOFIX).format(inpath=video, outpath=outpath)
+    if norm:
+        proc = proc + ' '.join(FFMPEG_NORM).format(outpath=outpath)
+
+
     log_file_only.info('subprocess call: {}'.format(proc))
     p = subprocess.Popen(proc, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True, universal_newlines=True)
 
@@ -502,12 +516,14 @@ def local_process(path):
     global starttime
     global runtime
     global monofix
+    global norm
     monofix = get_mono()
     if not monofix:
         starttime, runtime = get_trim()
     else:
         starttime = False
         runtime = False
+    norm = get_norm()
     files = get_files(local=True)
     return files
 
@@ -520,7 +536,9 @@ def youtube_process(url):
         auto_captions = get_auto_captions() if captions else False
         global starttime
         global runtime
+        global norm
         starttime, runtime = get_trim()
+        norm = get_norm()
     download_video(url, captions, auto_captions)
     files = get_files()
     return files
@@ -553,7 +571,7 @@ def main():
         resolution = get_resolution(metadata)
         is_target_res = is_target_resolution(resolution)
         duration = get_duration(metadata)
-        encode(files, is_target_res, duration, starttime, runtime, monofix)
+        encode(files, is_target_res, duration, starttime, runtime, monofix, norm)
         move_files()
 
 

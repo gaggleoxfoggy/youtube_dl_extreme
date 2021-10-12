@@ -176,7 +176,7 @@ FFMPEG_MONOFIX = ['rm Temp_mono.mov;',
                  '-c:v copy',
                  '-ac 1',
                  'Temp_Mono.mov',
-                 '&&'
+                 '&&',
                  'ffmpeg', '-i',
                  'Temp_Mono.mov', 
                  '-c:v copy',

@@ -9,4 +9,5 @@ git pull origin main
 ./prepare_virtualenv.sh
 
 # Run
+source .env/bin/activate
 ./youtube_dl_extreme.py "$@"

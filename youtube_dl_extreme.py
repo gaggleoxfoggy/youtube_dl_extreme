@@ -85,10 +85,10 @@ if not os.path.exists('options.txt'):
     open('options.txt', 'w').close()
 
 parser = argparse.ArgumentParser(fromfile_prefix_chars='@')
-parser.add_argument('-res', type=int, default=720)
+parser.add_argument('-res', type=int, default=1080)
 parser.add_argument('-fast', '--skip-encoding', action='store_true', default=False)
 parser.add_argument('-encoding', type=str, default='prores -profile:v 2')
-parser.add_argument('-framerate', type=float, default=29.97)
+parser.add_argument('-framerate', type=float, default=59.94)
 args = parser.parse_args(['@options.txt'] + sys.argv[1:])
 if args.res == 720:
     WIDTH, HEIGHT = (1280, 720)
@@ -128,6 +128,13 @@ FFMPEG_PRORES = ['ffmpeg', '-i',
                  '-c:v', '{encoding}'.format(encoding=args.encoding),
                  '-r', '{framerate}'.format(framerate=args.framerate),
                  '-c:a', 'pcm_s24le',
+                 '-ar', '48000',
+                 '{outpath}']
+FFMPEG_AUDIO = ['ffmpeg', '-i',
+                 '{inpath}', '-ss', '{startpoint}',
+                 '-to', '{runtime}',
+                 '-c:a', 'libmp3lame',
+                 '-qscale:a 2',
                  '-ar', '48000',
                  '{outpath}']
 FFMPEG_PRORES_CAPS = ['ffmpeg', '-i',
@@ -400,32 +407,47 @@ def get_norm():
         return False
     return True
 
-def encode(files, is_target_res, duration, inpoint, outpoint, monofix, norm):
+def get_audio():
+    '''Output Audio only'''
+    user_input = input('Would you like to output this as audio only? (yes/no)') or 'n'
+    if not user_input[0].lower() == 'y':
+        return False
+    return True
+
+def encode(files, is_target_res, duration, inpoint, outpoint, monofix, norm, audio):
     '''Encode video with captions burned in (if present).'''
     video = files['video']
     captions = files['captions']
     ext = get_container()
+    if audio:
+        ext = '.mp3'
     if not inpoint:
         inpoint = '00:00:00'
     if not outpoint:
         outpoint = time.strftime('%H:%M:%S', time.gmtime(duration + 1))
     new_filename = os.path.splitext(os.path.basename(video))[0] + ext
     outpath = os.path.join(ENCODING, new_filename)
-    if captions is None and not is_target_res:
-        log.info('Yes Scale/Letterbox, No captions')
-        proc = ' '.join(FFMPEG_PRORES_LETTERBOX).format(inpath=video, startpoint=inpoint, outpath=outpath, runtime=outpoint, width=WIDTH, height=HEIGHT)
-    elif captions and not is_target_res:
-        log.info('Yes Scale/Letterbox, Yes captions')
-        proc = ' '.join(FFMPEG_PRORES_LETTERBOX_CAPS).format(inpath=video, startpoint=inpoint, subtitles=captions, outpath=outpath, runtime=outpoint, width=WIDTH, height=HEIGHT)
-    elif captions and is_target_res:
-        log.info('No Scale/Letterbox, Yes captions')
-        proc = ' '.join(FFMPEG_PRORES_CAPS).format(inpath=video, startpoint=inpoint, subtitles=captions, outpath=outpath, runtime=outpoint)
+    if not audio:
+        if captions is None and not is_target_res:
+            log.info('Yes Scale/Letterbox, No captions')
+            proc = ' '.join(FFMPEG_PRORES_LETTERBOX).format(inpath=video, startpoint=inpoint, outpath=outpath, runtime=outpoint, width=WIDTH, height=HEIGHT)
+        elif captions and not is_target_res:
+            log.info('Yes Scale/Letterbox, Yes captions')
+            proc = ' '.join(FFMPEG_PRORES_LETTERBOX_CAPS).format(inpath=video, startpoint=inpoint, subtitles=captions, outpath=outpath, runtime=outpoint, width=WIDTH, height=HEIGHT)
+        elif captions and is_target_res:
+            log.info('No Scale/Letterbox, Yes captions')
+            proc = ' '.join(FFMPEG_PRORES_CAPS).format(inpath=video, startpoint=inpoint, subtitles=captions, outpath=outpath, runtime=outpoint)
+        else:
+            log.info('No Scale/Letterbox, No captions')
+            proc = ' '.join(FFMPEG_PRORES).format(inpath=video, startpoint=inpoint, outpath=outpath, runtime=outpoint)
     else:
         log.info('No Scale/Letterbox, No captions')
-        proc = ' '.join(FFMPEG_PRORES).format(inpath=video, startpoint=inpoint, outpath=outpath, runtime=outpoint)
+        proc = ' '.join(FFMPEG_AUDIO).format(inpath=video, startpoint=inpoint, outpath=outpath, runtime=outpoint)
     if monofix:
+        log.info('Fixing audio channels')
         proc = ' '.join(FFMPEG_MONOFIX).format(inpath=video, outpath=outpath)
     if norm:
+        log.info('Normalizing audio')
         proc = proc + ' '.join(FFMPEG_NORM).format(outpath=outpath)
 
 
@@ -517,6 +539,7 @@ def local_process(path):
     global runtime
     global monofix
     global norm
+    global audio
     monofix = get_mono()
     if not monofix:
         starttime, runtime = get_trim()
@@ -524,6 +547,7 @@ def local_process(path):
         starttime = False
         runtime = False
     norm = get_norm()
+    audio = get_audio() 
     files = get_files(local=True)
     return files
 
@@ -532,13 +556,18 @@ def youtube_process(url):
     url = strip_features(url)
     captions = auto_captions = False
     if not args.skip_encoding:
-        captions = get_captions()
-        auto_captions = get_auto_captions() if captions else False
+        #captions = get_captions()
+        #auto_captions = get_auto_captions() if captions else False
         global starttime
         global runtime
         global norm
+        global audio
         starttime, runtime = get_trim()
         norm = get_norm()
+        audio = get_audio()
+        if not audio:
+            captions = get_captions()
+            auto_captions = get_auto_captions() if captions else False
     download_video(url, captions, auto_captions)
     files = get_files()
     return files
@@ -571,7 +600,7 @@ def main():
         resolution = get_resolution(metadata)
         is_target_res = is_target_resolution(resolution)
         duration = get_duration(metadata)
-        encode(files, is_target_res, duration, starttime, runtime, monofix, norm)
+        encode(files, is_target_res, duration, starttime, runtime, monofix, norm, audio)
         move_files()
 
 

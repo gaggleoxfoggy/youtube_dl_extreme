@@ -115,7 +115,7 @@ YDL_COMMON_OPTS = {'restrictfilenames': True,
                    'logger': log,
                    'subtitleslangs': ['en'],
                    'format': 'bestvideo+bestaudio/best'}
-YDL_OPTS_SPECIFIC_RES = {'format': 'bestvideo[width={width}][height={height}]+bestaudio'.format(width=WIDTH, height=HEIGHT)}
+YDL_OPTS_SPECIFIC_RES = {'format': 'bestvideo[width={width}][height={height}][ext=mp4]+bestaudio[ext=m4a]'.format(width=WIDTH, height=HEIGHT)}
 YDL_OPTS_BEST_RES = {'format': 'bestvideo+bestaudio/best'}
 FFMPEG_MP4_CONTAINER = ['ffmpeg', '-i',
                         '{inpath}', '-ss', '{startpoint}',
@@ -302,12 +302,12 @@ def download_video(url, captions, auto_captions):
 
 
     while True:
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             try:
                 ydl.download([url])
                 break
-            except youtube_dl.utils.DownloadError as e:
-                if 'format not available' in str(e):
+            except yt_dlp.utils.DownloadError as e:
+                if 'not available' in str(e):
                     log.warning('Resolution {res} not available, downloading best possible resolution.'.format(res=args.res))
                     ydl_opts.update(YDL_OPTS_BEST_RES)
 

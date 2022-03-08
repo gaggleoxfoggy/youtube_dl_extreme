@@ -1,3 +1,4 @@
 youtube-dl
+yt-dlp
 tqdm
 ffmpeg-normalize

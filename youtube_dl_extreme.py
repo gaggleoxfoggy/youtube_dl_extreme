@@ -60,9 +60,9 @@ import subprocess
 import argparse
 import json
 import logging
-import youtube_dl
+#import youtube_dl
+import yt_dlp
 from tqdm import tqdm
-
 monofix = False
 
 FORMAT = logging.Formatter('%(asctime)s :: %(levelname)s :: %(message)s',
@@ -113,8 +113,9 @@ YOUTUBE_VIDEO_FORMATS = set(['.flv', '.3gp', '.mp4', '.webm', '.mkv', '.ogv', '.
 YDL_COMMON_OPTS = {'restrictfilenames': True,
                    'outtmpl': "{path}%(title)s.%(ext)s".format(path=DOWNLOADING),
                    'logger': log,
-                   'subtitleslangs': ['en']}
-YDL_OPTS_SPECIFIC_RES = {'format': 'bestvideo[width={width}][height={height}]+bestaudio'.format(width=WIDTH, height=HEIGHT)}
+                   'subtitleslangs': ['en'],
+                   'format': 'bestvideo+bestaudio/best'}
+YDL_OPTS_SPECIFIC_RES = {'format': 'bestvideo[width={width}][height={height}][ext=mp4]+bestaudio'.format(width=WIDTH, height=HEIGHT)}
 YDL_OPTS_BEST_RES = {'format': 'bestvideo+bestaudio/best'}
 FFMPEG_MP4_CONTAINER = ['ffmpeg', '-i',
                         '{inpath}', '-ss', '{startpoint}',
@@ -301,11 +302,11 @@ def download_video(url, captions, auto_captions):
 
 
     while True:
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             try:
                 ydl.download([url])
                 break
-            except youtube_dl.utils.DownloadError as e:
+            except yt_dlp.utils.DownloadError as e:
                 if 'format not available' in str(e):
                     log.warning('Resolution {res} not available, downloading best possible resolution.'.format(res=args.res))
                     ydl_opts.update(YDL_OPTS_BEST_RES)

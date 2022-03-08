@@ -285,7 +285,7 @@ def get_auto_captions():
     return True
 
 
-def download_video(url, captions, auto_captions):
+def download_video(url, captions, auto_captions, legacy):
     '''Try to download YouTube video in specific resolution.
 
     Fall back to bestvideo+bestaudio/best if not available in target resolution.
@@ -302,14 +302,24 @@ def download_video(url, captions, auto_captions):
 
 
     while True:
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            try:
-                ydl.download([url])
-                break
-            except yt_dlp.utils.DownloadError as e:
-                if 'not available' in str(e):
-                    log.warning('Resolution {res} not available, downloading best possible resolution.'.format(res=args.res))
-                    ydl_opts.update(YDL_OPTS_BEST_RES)
+        if legacy:
+            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+                try:
+                    ydl.download([url])
+                    break
+                except youtube_dl.utils.DownloadError as e:
+                    if 'not available' in str(e):
+                        log.warning('Resolution {res} not available, downloading best possible resolution.'.format(res=args.res))
+                        ydl_opts.update(YDL_OPTS_BEST_RES)
+        else:
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                try:
+                    ydl.download([url])
+                    break
+                except yt_dlp.utils.DownloadError as e:
+                    if 'not available' in str(e):
+                        log.warning('Resolution {res} not available, downloading best possible resolution.'.format(res=args.res))
+                        ydl_opts.update(YDL_OPTS_BEST_RES)
 
 
 def get_files(local=False):
@@ -411,6 +421,13 @@ def get_norm():
 def get_audio():
     '''Output Audio only'''
     user_input = input('Would you like to output this as audio only? (yes/no)') or 'n'
+    if not user_input[0].lower() == 'y':
+        return False
+    return True
+
+def get_legacy():
+    '''Use legacy youtube downloader for compatibility'''
+    user_input = input('Would you like to use the legacy version of YT Downloader? (yes/no)') or 'n'
     if not user_input[0].lower() == 'y':
         return False
     return True
@@ -569,7 +586,8 @@ def youtube_process(url):
         if not audio:
             captions = get_captions()
             auto_captions = get_auto_captions() if captions else False
-    download_video(url, captions, auto_captions)
+        legacy = get_legacy()
+    download_video(url, captions, auto_captions, legacy)
     files = get_files()
     return files
 

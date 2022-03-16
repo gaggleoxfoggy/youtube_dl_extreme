@@ -113,7 +113,7 @@ YOUTUBE_VIDEO_FORMATS = set(['.flv', '.3gp', '.mp4', '.webm', '.mkv', '.ogv', '.
 YDL_COMMON_OPTS = {'restrictfilenames': True,
                    'outtmpl': "{path}%(title)s.%(ext)s".format(path=DOWNLOADING),
                    'logger': log,
-                   'subtitleslangs': ['en'],
+                   'subtitleslangs': ['en', 'en-nP7-2PuUl7o'],
                    'format': 'bestvideo+bestaudio/best'}
 YDL_OPTS_SPECIFIC_RES = {'format': 'bestvideo[width={width}][height={height}][ext=mp4]+bestaudio[ext=m4a]'.format(width=WIDTH, height=HEIGHT)}
 YDL_OPTS_BEST_RES = {'format': 'bestvideo+bestaudio/best'}

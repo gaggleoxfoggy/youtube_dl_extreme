@@ -201,8 +201,12 @@ FFMPEG_NORM =   [' && ffmpeg-normalize',
 
 def clear():
     '''Clear terminal window'''
-    p = subprocess.Popen(['clear'])
-    p.communicate()
+    if sys.platform == 'win32':
+        p = subprocess.Popen('cls', shell=True)
+        p.communicate()
+    else:
+        p = subprocess.Popen(['clear'])
+        p.communicate()
 
 
 def intro_message():

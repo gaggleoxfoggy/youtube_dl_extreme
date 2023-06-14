@@ -1,0 +1,403 @@
+2023-05-08 15:40:03 :: INFO :: -------------------------------------------------------------------------
+2023-05-08 15:40:03 :: INFO :: -------------------------------------------------------------------------
+2023-05-08 15:40:03 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-05-08 15:40:03 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-05-08 15:40:03 :: INFO :: Files will be downloaded to: /Users/jermainebattle/Desktop/YT_Downloads/
+2023-05-08 15:40:03 :: INFO :: Files will be downloaded to: /Users/jermainebattle/Desktop/YT_Downloads/
+2023-05-08 15:40:03 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-05-08 15:40:03 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-05-08 15:40:03 :: INFO :: Selected output resolution: 1920x1080
+2023-05-08 15:40:03 :: INFO :: Selected output resolution: 1920x1080
+2023-05-08 15:40:03 :: INFO :: -------------------------------------------------------------------------
+
+2023-05-08 15:40:03 :: INFO :: -------------------------------------------------------------------------
+
+2023-05-08 15:40:41 :: DEBUG :: [youtube] Extracting URL: https://www.youtube.com/watch?v=TSJEKU9qKJI&pp=ygUhcG9wIGNvcm5lciBjb21tZXJjaWFsIHN1cGVyIGJvd2wg
+2023-05-08 15:40:41 :: DEBUG :: [youtube] Extracting URL: https://www.youtube.com/watch?v=TSJEKU9qKJI&pp=ygUhcG9wIGNvcm5lciBjb21tZXJjaWFsIHN1cGVyIGJvd2wg
+2023-05-08 15:40:41 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading webpage
+2023-05-08 15:40:41 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading webpage
+2023-05-08 15:40:41 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading android player API JSON
+2023-05-08 15:40:41 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading android player API JSON
+2023-05-08 15:40:41 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading player 50cf60f0
+2023-05-08 15:40:41 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading player 50cf60f0
+2023-05-08 15:40:42 :: ERROR :: [0;31mERROR:[0m [youtube] TSJEKU9qKJI: Requested format is not available. Use --list-formats for a list of available formats
+2023-05-08 15:40:42 :: ERROR :: [0;31mERROR:[0m [youtube] TSJEKU9qKJI: Requested format is not available. Use --list-formats for a list of available formats
+2023-05-08 15:40:42 :: WARNING :: Resolution 1080 not available, downloading best possible resolution.
+2023-05-08 15:40:42 :: WARNING :: Resolution 1080 not available, downloading best possible resolution.
+2023-05-08 15:40:42 :: DEBUG :: [youtube] Extracting URL: https://www.youtube.com/watch?v=TSJEKU9qKJI&pp=ygUhcG9wIGNvcm5lciBjb21tZXJjaWFsIHN1cGVyIGJvd2wg
+2023-05-08 15:40:42 :: DEBUG :: [youtube] Extracting URL: https://www.youtube.com/watch?v=TSJEKU9qKJI&pp=ygUhcG9wIGNvcm5lciBjb21tZXJjaWFsIHN1cGVyIGJvd2wg
+2023-05-08 15:40:42 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading webpage
+2023-05-08 15:40:42 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading webpage
+2023-05-08 15:40:42 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading android player API JSON
+2023-05-08 15:40:42 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading android player API JSON
+2023-05-08 15:40:43 :: DEBUG :: [info] TSJEKU9qKJI: Downloading 1 format(s): 247+251
+2023-05-08 15:40:43 :: DEBUG :: [info] TSJEKU9qKJI: Downloading 1 format(s): 247+251
+2023-05-08 15:40:48 :: DEBUG :: [dashsegments] Total fragments: 1
+2023-05-08 15:40:48 :: DEBUG :: [dashsegments] Total fragments: 1
+2023-05-08 15:40:48 :: DEBUG :: [download] Destination: /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f247.webm
+2023-05-08 15:40:48 :: DEBUG :: [download] Destination: /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f247.webm
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.0% of ~   4.50MiB at   19.48KiB/s ETA 03:56 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.0% of ~   4.50MiB at   19.48KiB/s ETA 03:56 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.1% of ~   4.50MiB at   57.87KiB/s ETA 01:19 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.1% of ~   4.50MiB at   57.87KiB/s ETA 01:19 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.2% of ~   4.50MiB at  134.13KiB/s ETA 00:34 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.2% of ~   4.50MiB at  134.13KiB/s ETA 00:34 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.3% of ~   4.50MiB at  285.86KiB/s ETA 00:16 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.3% of ~   4.50MiB at  285.86KiB/s ETA 00:16 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.7% of ~   4.50MiB at  529.06KiB/s ETA 00:08 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.7% of ~   4.50MiB at  529.06KiB/s ETA 00:08 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   1.4% of ~   4.50MiB at  990.42KiB/s ETA 00:04 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   1.4% of ~   4.50MiB at  990.42KiB/s ETA 00:04 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   2.8% of ~   4.50MiB at    1.76MiB/s ETA 00:02 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   2.8% of ~   4.50MiB at    1.76MiB/s ETA 00:02 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   5.5% of ~   4.50MiB at    3.22MiB/s ETA 00:01 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   5.5% of ~   4.50MiB at    3.22MiB/s ETA 00:01 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  11.1% of ~   4.50MiB at    5.88MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  11.1% of ~   4.50MiB at    5.88MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  22.2% of ~   4.50MiB at   10.21MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  22.2% of ~   4.50MiB at   10.21MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  44.4% of ~   4.50MiB at   15.68MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  44.4% of ~   4.50MiB at   15.68MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  88.8% of ~   4.50MiB at   21.89MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  88.8% of ~   4.50MiB at   21.89MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download] 100.0% of ~   4.50MiB at   23.41MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download] 100.0% of ~   4.50MiB at   23.41MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download] 100.0% of ~   4.50MiB at   23.22MiB/s ETA 00:00 (frag 1/1)
+2023-05-08 15:40:49 :: DEBUG :: [download] 100.0% of ~   4.50MiB at   23.22MiB/s ETA 00:00 (frag 1/1)
+2023-05-08 15:40:49 :: DEBUG :: [download] 100% of    4.50MiB in 00:00:00 at 22.55MiB/s
+2023-05-08 15:40:49 :: DEBUG :: [download] 100% of    4.50MiB in 00:00:00 at 22.55MiB/s
+2023-05-08 15:40:49 :: DEBUG :: [dashsegments] Total fragments: 1
+2023-05-08 15:40:49 :: DEBUG :: [dashsegments] Total fragments: 1
+2023-05-08 15:40:49 :: DEBUG :: [download] Destination: /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f251.webm
+2023-05-08 15:40:49 :: DEBUG :: [download] Destination: /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f251.webm
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.1% of ~   1.27MiB at   27.62KiB/s ETA 00:47 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.1% of ~   1.27MiB at   27.62KiB/s ETA 00:47 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.2% of ~   1.27MiB at   81.99KiB/s ETA 00:15 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.2% of ~   1.27MiB at   81.99KiB/s ETA 00:15 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.5% of ~   1.27MiB at  189.49KiB/s ETA 00:06 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   0.5% of ~   1.27MiB at  189.49KiB/s ETA 00:06 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   1.2% of ~   1.27MiB at  402.74KiB/s ETA 00:03 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   1.2% of ~   1.27MiB at  402.74KiB/s ETA 00:03 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   2.4% of ~   1.27MiB at  696.02KiB/s ETA 00:01 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   2.4% of ~   1.27MiB at  696.02KiB/s ETA 00:01 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   4.8% of ~   1.27MiB at    1.22MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   4.8% of ~   1.27MiB at    1.22MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   9.8% of ~   1.27MiB at    2.14MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]   9.8% of ~   1.27MiB at    2.14MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  19.6% of ~   1.27MiB at    3.72MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  19.6% of ~   1.27MiB at    3.72MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  39.3% of ~   1.27MiB at    6.31MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  39.3% of ~   1.27MiB at    6.31MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  78.7% of ~   1.27MiB at   10.48MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download]  78.7% of ~   1.27MiB at   10.48MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download] 100.0% of ~   1.27MiB at   12.55MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download] 100.0% of ~   1.27MiB at   12.55MiB/s ETA 00:00 (frag 0/1)
+2023-05-08 15:40:49 :: DEBUG :: [download] 100.0% of ~   1.27MiB at   12.29MiB/s ETA 00:00 (frag 1/1)
+2023-05-08 15:40:49 :: DEBUG :: [download] 100.0% of ~   1.27MiB at   12.29MiB/s ETA 00:00 (frag 1/1)
+2023-05-08 15:40:49 :: DEBUG :: [download] 100% of    1.27MiB in 00:00:00 at 11.99MiB/s
+2023-05-08 15:40:49 :: DEBUG :: [download] 100% of    1.27MiB in 00:00:00 at 11.99MiB/s
+2023-05-08 15:40:49 :: DEBUG :: [Merger] Merging formats into "/Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.webm"
+2023-05-08 15:40:49 :: DEBUG :: [Merger] Merging formats into "/Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.webm"
+2023-05-08 15:40:49 :: DEBUG :: Deleting original file /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f247.webm (pass -k to keep)
+2023-05-08 15:40:49 :: DEBUG :: Deleting original file /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f247.webm (pass -k to keep)
+2023-05-08 15:40:49 :: DEBUG :: Deleting original file /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f251.webm (pass -k to keep)
+2023-05-08 15:40:49 :: DEBUG :: Deleting original file /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f251.webm (pass -k to keep)
+2023-05-08 15:40:49 :: INFO :: subprocess call: ['ffprobe', '-v', 'quiet', '-print_format', 'json', '-show_format', '-show_streams', '/Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.webm']
+2023-05-08 15:40:49 :: INFO :: Yes Scale/Letterbox, No captions
+2023-05-08 15:40:49 :: INFO :: Yes Scale/Letterbox, No captions
+2023-05-08 15:40:49 :: INFO :: subprocess call: ffmpeg -i /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.webm -ss 00:00:00 -to 00:01:31 -vf 'scale=(sar*iw)*min(1920/(sar*iw)\,1080/ih):ih*min(1920/(sar*iw)\,1080/ih), pad=1920:1080:(1920-(sar*iw)*min(1920/(sar*iw)\,1080/ih))/2:(1080-ih*min(1920/(sar*iw)\,1080/ih))/2' -c:v prores -profile:v 2 -r 59.94 -c:a pcm_s24le -ar 48000 /Users/jermainebattle/Desktop/YT_Downloads/.encoding/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.mov
+2023-05-08 15:40:49 :: INFO :: ffmpeg version 6.0 Copyright (c) 2000-2023 the FFmpeg developers
+2023-05-08 15:40:49 :: INFO ::   built with Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+2023-05-08 15:40:49 :: INFO ::   configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/6.0 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+2023-05-08 15:40:49 :: INFO ::   libavutil      58.  2.100 / 58.  2.100
+2023-05-08 15:40:49 :: INFO ::   libavcodec     60.  3.100 / 60.  3.100
+2023-05-08 15:40:49 :: INFO ::   libavformat    60.  3.100 / 60.  3.100
+2023-05-08 15:40:49 :: INFO ::   libavdevice    60.  1.100 / 60.  1.100
+2023-05-08 15:40:49 :: INFO ::   libavfilter     9.  3.100 /  9.  3.100
+2023-05-08 15:40:49 :: INFO ::   libswscale      7.  1.100 /  7.  1.100
+2023-05-08 15:40:49 :: INFO ::   libswresample   4. 10.100 /  4. 10.100
+2023-05-08 15:40:49 :: INFO ::   libpostproc    57.  1.100 / 57.  1.100
+2023-05-08 15:40:49 :: INFO :: Input #0, matroska,webm, from '/Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.webm':
+2023-05-08 15:40:49 :: INFO ::   Metadata:
+2023-05-08 15:40:49 :: INFO ::     ENCODER         : Lavf60.3.100
+2023-05-08 15:40:49 :: INFO ::   Duration: 00:01:30.13, start: 0.000000, bitrate: 537 kb/s
+2023-05-08 15:40:49 :: INFO ::   Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv, bt709), 960x540, SAR 1:1 DAR 16:9, 23.98 fps, 23.98 tbr, 1k tbn (default)
+2023-05-08 15:40:49 :: INFO ::     Metadata:
+2023-05-08 15:40:49 :: INFO ::       DURATION        : 00:01:30.090000000
+2023-05-08 15:40:49 :: INFO ::   Stream #0:1(eng): Audio: opus, 48000 Hz, stereo, fltp (default)
+2023-05-08 15:40:49 :: INFO ::     Metadata:
+2023-05-08 15:40:49 :: INFO ::       DURATION        : 00:01:30.128000000
+2023-05-08 15:40:49 :: INFO :: Stream mapping:
+2023-05-08 15:40:49 :: INFO ::   Stream #0:0 -> #0:0 (vp9 (native) -> prores (native))
+2023-05-08 15:40:49 :: INFO ::   Stream #0:1 -> #0:1 (opus (native) -> pcm_s24le (native))
+2023-05-08 15:40:49 :: INFO :: Press [q] to stop, [?] for help
+2023-05-08 15:40:49 :: INFO :: Output #0, mov, to '/Users/jermainebattle/Desktop/YT_Downloads/.encoding/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.mov':
+2023-05-08 15:40:49 :: INFO ::   Metadata:
+2023-05-08 15:40:49 :: INFO ::     encoder         : Lavf60.3.100
+2023-05-08 15:40:49 :: INFO ::   Stream #0:0(eng): Video: prores (Standard) (apcn / 0x6E637061), yuv422p10le(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 59.94 fps, 11988 tbn (default)
+2023-05-08 15:40:49 :: INFO ::     Metadata:
+2023-05-08 15:40:49 :: INFO ::       DURATION        : 00:01:30.090000000
+2023-05-08 15:40:49 :: INFO ::       encoder         : Lavc60.3.100 prores
+2023-05-08 15:40:49 :: INFO ::   Stream #0:1(eng): Audio: pcm_s24le (in24 / 0x34326E69), 48000 Hz, stereo, s32, 2304 kb/s (default)
+2023-05-08 15:40:49 :: INFO ::     Metadata:
+2023-05-08 15:40:49 :: INFO ::       DURATION        : 00:01:30.128000000
+2023-05-08 15:40:49 :: INFO ::       encoder         : Lavc60.3.100 pcm_s24le
+2023-05-08 15:40:50 :: INFO :: frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:00.36 bitrate=   0.8kbits/s speed= 172x
+2023-05-08 15:40:50 :: INFO :: frame=  187 fps=0.0 q=-0.0 size=  100608kB time=00:00:03.68 bitrate=223901.4kbits/s dup=119 drop=0 speed=7.33x
+2023-05-08 15:40:51 :: INFO :: frame=  415 fps=412 q=-0.0 size=  202752kB time=00:00:07.48 bitrate=222021.7kbits/s dup=255 drop=0 speed=7.43x
+2023-05-08 15:40:51 :: INFO :: frame=  691 fps=457 q=-0.0 size=  259328kB time=00:00:12.10 bitrate=175557.0kbits/s dup=421 drop=0 speed=8.01x
+2023-05-08 15:40:52 :: INFO :: frame=  952 fps=473 q=-0.0 size=  322816kB time=00:00:16.44 bitrate=160848.4kbits/s dup=578 drop=0 speed=8.17x
+2023-05-08 15:40:52 :: INFO :: frame= 1170 fps=465 q=-0.0 size=  403712kB time=00:00:20.08 bitrate=164693.4kbits/s dup=708 drop=0 speed=7.99x
+2023-05-08 15:40:53 :: INFO :: frame= 1382 fps=458 q=-0.0 size=  488192kB time=00:00:23.62 bitrate=169309.9kbits/s dup=836 drop=0 speed=7.83x
+2023-05-08 15:40:53 :: INFO :: frame= 1605 fps=456 q=-0.0 size=  573184kB time=00:00:27.32 bitrate=171865.0kbits/s dup=969 drop=0 speed=7.76x
+2023-05-08 15:40:53 :: INFO :: [vost#0:0/prores @ 0x137e059e0] More than 1000 frames duplicated
+2023-05-08 15:40:54 :: INFO :: frame= 1818 fps=452 q=-0.0 size=  663040kB time=00:00:30.92 bitrate=175661.3kbits/s dup=1098 drop=0 speed=7.69x
+2023-05-08 15:40:54 :: INFO :: frame= 2047 fps=452 q=-0.0 size=  749568kB time=00:00:34.76 bitrate=176648.0kbits/s dup=1235 drop=0 speed=7.67x
+2023-05-08 15:40:55 :: INFO :: frame= 2272 fps=451 q=-0.0 size=  837888kB time=00:00:38.50 bitrate=178280.5kbits/s dup=1370 drop=0 speed=7.65x
+2023-05-08 15:40:55 :: INFO :: frame= 2500 fps=451 q=-0.0 size=  923392kB time=00:00:42.26 bitrate=178993.1kbits/s dup=1506 drop=0 speed=7.63x
+2023-05-08 15:40:56 :: INFO :: frame= 2720 fps=450 q=-0.0 size= 1018624kB time=00:00:45.98 bitrate=181478.6kbits/s dup=1638 drop=0 speed= 7.6x
+2023-05-08 15:40:56 :: INFO :: frame= 2943 fps=449 q=-0.0 size= 1102080kB time=00:00:49.68 bitrate=181724.2kbits/s dup=1773 drop=0 speed=7.59x
+2023-05-08 15:40:57 :: INFO :: frame= 3179 fps=450 q=-0.0 size= 1182208kB time=00:00:53.64 bitrate=180545.6kbits/s dup=1915 drop=0 speed= 7.6x
+2023-05-08 15:40:57 :: INFO :: frame= 3379 fps=446 q=-0.0 size= 1262848kB time=00:00:56.98 bitrate=181556.2kbits/s dup=2035 drop=0 speed=7.53x
+2023-05-08 15:40:58 :: INFO :: frame= 3587 fps=444 q=-0.0 size= 1345024kB time=00:01:00.40 bitrate=182421.4kbits/s dup=2158 drop=0 speed=7.48x
+2023-05-08 15:40:58 :: INFO :: frame= 3802 fps=443 q=-0.0 size= 1423616kB time=00:01:03.98 bitrate=182277.0kbits/s dup=2287 drop=0 speed=7.46x
+2023-05-08 15:40:59 :: INFO :: frame= 4019 fps=443 q=-0.0 size= 1515776kB time=00:01:07.62 bitrate=183629.9kbits/s dup=2418 drop=0 speed=7.45x
+2023-05-08 15:40:59 :: INFO :: frame= 4255 fps=444 q=-0.0 size= 1595904kB time=00:01:11.54 bitrate=182743.4kbits/s dup=2559 drop=0 speed=7.47x
+2023-05-08 15:41:00 :: INFO :: frame= 4472 fps=443 q=-0.0 size= 1688064kB time=00:01:15.16 bitrate=183986.6kbits/s dup=2689 drop=0 speed=7.45x
+2023-05-08 15:41:00 :: INFO :: frame= 4684 fps=442 q=-0.0 size= 1771008kB time=00:01:18.68 bitrate=184391.4kbits/s dup=2816 drop=0 speed=7.43x
+2023-05-08 15:41:01 :: INFO :: frame= 4899 fps=442 q=-0.0 size= 1857280kB time=00:01:22.28 bitrate=184913.1kbits/s dup=2946 drop=0 speed=7.42x
+2023-05-08 15:41:01 :: INFO :: frame= 5072 fps=437 q=-0.0 size= 1947136kB time=00:01:25.18 bitrate=187259.3kbits/s dup=3049 drop=0 speed=7.35x
+2023-05-08 15:41:02 :: INFO :: frame= 5227 fps=432 q=-0.0 size= 2046976kB time=00:01:27.80 bitrate=190986.8kbits/s dup=3142 drop=0 speed=7.26x
+2023-05-08 15:41:02 :: INFO :: frame= 5385 fps=427 q=-0.0 size= 2145024kB time=00:01:30.10 bitrate=195026.0kbits/s dup=3237 drop=0 speed=7.15x
+2023-05-08 15:41:02 :: INFO :: frame= 5400 fps=427 q=-0.0 Lsize= 2155110kB time=00:01:30.10 bitrate=195943.0kbits/s dup=3241 drop=0 speed=7.13x
+2023-05-08 15:41:02 :: INFO :: video:2129691kB audio:25342kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.003554%
+2023-05-08 15:41:02 :: INFO :: -------------------------------------------------------------------------
+2023-05-08 15:41:02 :: INFO :: -------------------------------------------------------------------------
+2023-05-08 15:41:02 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-05-08 15:41:02 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-05-08 15:41:02 :: INFO :: Files will be downloaded to: /Users/jermainebattle/Desktop/YT_Downloads/
+2023-05-08 15:41:02 :: INFO :: Files will be downloaded to: /Users/jermainebattle/Desktop/YT_Downloads/
+2023-05-08 15:41:02 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-05-08 15:41:02 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-05-08 15:41:02 :: INFO :: Selected output resolution: 1920x1080
+2023-05-08 15:41:02 :: INFO :: Selected output resolution: 1920x1080
+2023-05-08 15:41:02 :: INFO :: -------------------------------------------------------------------------
+
+2023-05-08 15:41:02 :: INFO :: -------------------------------------------------------------------------
+
+2023-06-12 10:50:06 :: INFO :: -------------------------------------------------------------------------
+2023-06-12 10:50:06 :: INFO :: -------------------------------------------------------------------------
+2023-06-12 10:50:06 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-06-12 10:50:06 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-06-12 10:50:06 :: INFO :: Files will be downloaded to: /Users/jermainebattle/Desktop/YT_Downloads/
+2023-06-12 10:50:06 :: INFO :: Files will be downloaded to: /Users/jermainebattle/Desktop/YT_Downloads/
+2023-06-12 10:50:06 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-06-12 10:50:06 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-06-12 10:50:06 :: INFO :: Selected output resolution: 1920x1080
+2023-06-12 10:50:06 :: INFO :: Selected output resolution: 1920x1080
+2023-06-12 10:50:06 :: INFO :: -------------------------------------------------------------------------
+
+2023-06-12 10:50:06 :: INFO :: -------------------------------------------------------------------------
+
+2023-06-12 10:50:46 :: DEBUG :: [youtube] Extracting URL: https://www.youtube.com/watch?v=TSJEKU9qKJI
+2023-06-12 10:50:46 :: DEBUG :: [youtube] Extracting URL: https://www.youtube.com/watch?v=TSJEKU9qKJI
+2023-06-12 10:50:46 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading webpage
+2023-06-12 10:50:46 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading webpage
+2023-06-12 10:50:46 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading android player API JSON
+2023-06-12 10:50:46 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading android player API JSON
+2023-06-12 10:50:46 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading player 8c7583ff
+2023-06-12 10:50:46 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading player 8c7583ff
+2023-06-12 10:50:47 :: WARNING :: [youtube] TSJEKU9qKJI: nsig extraction failed: You may experience throttling for some formats
+         Install [0;94mPhantomJS[0m to workaround the issue. Please download it from https://phantomjs.org/download.html
+         n = jrv-dq2pmoVtJwzIkb ; player = https://www.youtube.com/s/player/8c7583ff/player_ias.vflset/en_US/base.js
+2023-06-12 10:50:47 :: WARNING :: [youtube] TSJEKU9qKJI: nsig extraction failed: You may experience throttling for some formats
+         Install [0;94mPhantomJS[0m to workaround the issue. Please download it from https://phantomjs.org/download.html
+         n = jrv-dq2pmoVtJwzIkb ; player = https://www.youtube.com/s/player/8c7583ff/player_ias.vflset/en_US/base.js
+2023-06-12 10:50:47 :: ERROR :: [0;31mERROR:[0m [youtube] TSJEKU9qKJI: Requested format is not available. Use --list-formats for a list of available formats
+2023-06-12 10:50:47 :: ERROR :: [0;31mERROR:[0m [youtube] TSJEKU9qKJI: Requested format is not available. Use --list-formats for a list of available formats
+2023-06-12 10:50:47 :: WARNING :: Resolution 1080 not available, downloading best possible resolution.
+2023-06-12 10:50:47 :: WARNING :: Resolution 1080 not available, downloading best possible resolution.
+2023-06-12 10:50:47 :: DEBUG :: [youtube] Extracting URL: https://www.youtube.com/watch?v=TSJEKU9qKJI
+2023-06-12 10:50:47 :: DEBUG :: [youtube] Extracting URL: https://www.youtube.com/watch?v=TSJEKU9qKJI
+2023-06-12 10:50:47 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading webpage
+2023-06-12 10:50:47 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading webpage
+2023-06-12 10:50:47 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading android player API JSON
+2023-06-12 10:50:47 :: DEBUG :: [youtube] TSJEKU9qKJI: Downloading android player API JSON
+2023-06-12 10:50:48 :: WARNING :: [youtube] TSJEKU9qKJI: nsig extraction failed: You may experience throttling for some formats
+         Install [0;94mPhantomJS[0m to workaround the issue. Please download it from https://phantomjs.org/download.html
+         n = hhtmV20KNP_PIr_vvW ; player = https://www.youtube.com/s/player/8c7583ff/player_ias.vflset/en_US/base.js
+2023-06-12 10:50:48 :: WARNING :: [youtube] TSJEKU9qKJI: nsig extraction failed: You may experience throttling for some formats
+         Install [0;94mPhantomJS[0m to workaround the issue. Please download it from https://phantomjs.org/download.html
+         n = hhtmV20KNP_PIr_vvW ; player = https://www.youtube.com/s/player/8c7583ff/player_ias.vflset/en_US/base.js
+2023-06-12 10:50:48 :: DEBUG :: [info] TSJEKU9qKJI: Downloading 1 format(s): 247+251
+2023-06-12 10:50:48 :: DEBUG :: [info] TSJEKU9qKJI: Downloading 1 format(s): 247+251
+2023-06-12 10:50:49 :: DEBUG :: [dashsegments] Total fragments: 1
+2023-06-12 10:50:49 :: DEBUG :: [dashsegments] Total fragments: 1
+2023-06-12 10:50:49 :: DEBUG :: [download] Destination: /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f247.webm
+2023-06-12 10:50:49 :: DEBUG :: [download] Destination: /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f247.webm
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.0% of ~   4.50MiB at   12.09KiB/s ETA 06:21 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.0% of ~   4.50MiB at   12.09KiB/s ETA 06:21 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.1% of ~   4.50MiB at   36.11KiB/s ETA 02:07 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.1% of ~   4.50MiB at   36.11KiB/s ETA 02:07 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.2% of ~   4.50MiB at   83.99KiB/s ETA 00:54 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.2% of ~   4.50MiB at   83.99KiB/s ETA 00:54 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.3% of ~   4.50MiB at  179.41KiB/s ETA 00:25 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.3% of ~   4.50MiB at  179.41KiB/s ETA 00:25 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.7% of ~   4.50MiB at  318.76KiB/s ETA 00:14 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.7% of ~   4.50MiB at  318.76KiB/s ETA 00:14 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   1.4% of ~   4.50MiB at  569.69KiB/s ETA 00:07 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   1.4% of ~   4.50MiB at  569.69KiB/s ETA 00:07 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   2.8% of ~   4.50MiB at    1.04MiB/s ETA 00:04 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   2.8% of ~   4.50MiB at    1.04MiB/s ETA 00:04 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   5.5% of ~   4.50MiB at    1.94MiB/s ETA 00:02 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   5.5% of ~   4.50MiB at    1.94MiB/s ETA 00:02 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]  11.1% of ~   4.50MiB at    2.91MiB/s ETA 00:01 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]  11.1% of ~   4.50MiB at    2.91MiB/s ETA 00:01 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]  22.2% of ~   4.50MiB at    4.98MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]  22.2% of ~   4.50MiB at    4.98MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]  44.4% of ~   4.50MiB at    6.24MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]  44.4% of ~   4.50MiB at    6.24MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]  88.8% of ~   4.50MiB at    8.94MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]  88.8% of ~   4.50MiB at    8.94MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download] 100.0% of ~   4.50MiB at    9.16MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download] 100.0% of ~   4.50MiB at    9.16MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download] 100.0% of ~   4.50MiB at    9.12MiB/s ETA 00:00 (frag 1/1)
+2023-06-12 10:50:49 :: DEBUG :: [download] 100.0% of ~   4.50MiB at    9.12MiB/s ETA 00:00 (frag 1/1)
+2023-06-12 10:50:49 :: DEBUG :: [download] 100% of    4.50MiB in 00:00:00 at 9.07MiB/s
+2023-06-12 10:50:49 :: DEBUG :: [download] 100% of    4.50MiB in 00:00:00 at 9.07MiB/s
+2023-06-12 10:50:49 :: DEBUG :: [dashsegments] Total fragments: 1
+2023-06-12 10:50:49 :: DEBUG :: [dashsegments] Total fragments: 1
+2023-06-12 10:50:49 :: DEBUG :: [download] Destination: /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f251.webm
+2023-06-12 10:50:49 :: DEBUG :: [download] Destination: /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f251.webm
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.1% of ~   1.27MiB at   21.52KiB/s ETA 01:00 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.1% of ~   1.27MiB at   21.52KiB/s ETA 01:00 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.2% of ~   1.27MiB at   63.60KiB/s ETA 00:20 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.2% of ~   1.27MiB at   63.60KiB/s ETA 00:20 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.5% of ~   1.27MiB at  146.44KiB/s ETA 00:08 (frag 0/1)
+2023-06-12 10:50:49 :: DEBUG :: [download]   0.5% of ~   1.27MiB at  146.44KiB/s ETA 00:08 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]   1.2% of ~   1.27MiB at  308.08KiB/s ETA 00:04 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]   1.2% of ~   1.27MiB at  308.08KiB/s ETA 00:04 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]   2.4% of ~   1.27MiB at  594.29KiB/s ETA 00:02 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]   2.4% of ~   1.27MiB at  594.29KiB/s ETA 00:02 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]   4.8% of ~   1.27MiB at  908.50KiB/s ETA 00:01 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]   4.8% of ~   1.27MiB at  908.50KiB/s ETA 00:01 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]   9.8% of ~   1.27MiB at    1.58MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]   9.8% of ~   1.27MiB at    1.58MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]  19.6% of ~   1.27MiB at    3.12MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]  19.6% of ~   1.27MiB at    3.12MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]  39.3% of ~   1.27MiB at    4.62MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]  39.3% of ~   1.27MiB at    4.62MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]  78.7% of ~   1.27MiB at    6.65MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download]  78.7% of ~   1.27MiB at    6.65MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download] 100.0% of ~   1.27MiB at    7.45MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download] 100.0% of ~   1.27MiB at    7.45MiB/s ETA 00:00 (frag 0/1)
+2023-06-12 10:50:50 :: DEBUG :: [download] 100.0% of ~   1.27MiB at    7.33MiB/s ETA 00:00 (frag 1/1)
+2023-06-12 10:50:50 :: DEBUG :: [download] 100.0% of ~   1.27MiB at    7.33MiB/s ETA 00:00 (frag 1/1)
+2023-06-12 10:50:50 :: DEBUG :: [download] 100% of    1.27MiB in 00:00:00 at 7.20MiB/s
+2023-06-12 10:50:50 :: DEBUG :: [download] 100% of    1.27MiB in 00:00:00 at 7.20MiB/s
+2023-06-12 10:50:50 :: DEBUG :: [Merger] Merging formats into "/Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.webm"
+2023-06-12 10:50:50 :: DEBUG :: [Merger] Merging formats into "/Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.webm"
+2023-06-12 10:50:50 :: DEBUG :: Deleting original file /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f247.webm (pass -k to keep)
+2023-06-12 10:50:50 :: DEBUG :: Deleting original file /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f247.webm (pass -k to keep)
+2023-06-12 10:50:50 :: DEBUG :: Deleting original file /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f251.webm (pass -k to keep)
+2023-06-12 10:50:50 :: DEBUG :: Deleting original file /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.f251.webm (pass -k to keep)
+2023-06-12 10:50:50 :: INFO :: subprocess call: ['ffprobe', '-v', 'quiet', '-print_format', 'json', '-show_format', '-show_streams', '/Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.webm']
+2023-06-12 10:50:50 :: INFO :: Yes Scale/Letterbox, No captions
+2023-06-12 10:50:50 :: INFO :: Yes Scale/Letterbox, No captions
+2023-06-12 10:50:50 :: INFO :: subprocess call: ffmpeg -i /Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.webm -ss 00:00:00 -to 00:01:31 -vf 'scale=(sar*iw)*min(1920/(sar*iw)\,1080/ih):ih*min(1920/(sar*iw)\,1080/ih), pad=1920:1080:(1920-(sar*iw)*min(1920/(sar*iw)\,1080/ih))/2:(1080-ih*min(1920/(sar*iw)\,1080/ih))/2' -c:v prores -profile:v 2 -r 59.94 -c:a pcm_s24le -ar 48000 /Users/jermainebattle/Desktop/YT_Downloads/.encoding/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.mov
+2023-06-12 10:50:50 :: INFO :: ffmpeg version 6.0 Copyright (c) 2000-2023 the FFmpeg developers
+2023-06-12 10:50:50 :: INFO ::   built with Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+2023-06-12 10:50:50 :: INFO ::   configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/6.0 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+2023-06-12 10:50:50 :: INFO ::   libavutil      58.  2.100 / 58.  2.100
+2023-06-12 10:50:50 :: INFO ::   libavcodec     60.  3.100 / 60.  3.100
+2023-06-12 10:50:50 :: INFO ::   libavformat    60.  3.100 / 60.  3.100
+2023-06-12 10:50:50 :: INFO ::   libavdevice    60.  1.100 / 60.  1.100
+2023-06-12 10:50:50 :: INFO ::   libavfilter     9.  3.100 /  9.  3.100
+2023-06-12 10:50:50 :: INFO ::   libswscale      7.  1.100 /  7.  1.100
+2023-06-12 10:50:50 :: INFO ::   libswresample   4. 10.100 /  4. 10.100
+2023-06-12 10:50:50 :: INFO ::   libpostproc    57.  1.100 / 57.  1.100
+2023-06-12 10:50:50 :: INFO :: Input #0, matroska,webm, from '/Users/jermainebattle/Desktop/YT_Downloads/.downloading/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.webm':
+2023-06-12 10:50:50 :: INFO ::   Metadata:
+2023-06-12 10:50:50 :: INFO ::     ENCODER         : Lavf60.3.100
+2023-06-12 10:50:50 :: INFO ::   Duration: 00:01:30.13, start: 0.000000, bitrate: 537 kb/s
+2023-06-12 10:50:50 :: INFO ::   Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv, bt709), 960x540, SAR 1:1 DAR 16:9, 23.98 fps, 23.98 tbr, 1k tbn (default)
+2023-06-12 10:50:50 :: INFO ::     Metadata:
+2023-06-12 10:50:50 :: INFO ::       DURATION        : 00:01:30.090000000
+2023-06-12 10:50:50 :: INFO ::   Stream #0:1(eng): Audio: opus, 48000 Hz, stereo, fltp (default)
+2023-06-12 10:50:50 :: INFO ::     Metadata:
+2023-06-12 10:50:50 :: INFO ::       DURATION        : 00:01:30.128000000
+2023-06-12 10:50:50 :: INFO :: Stream mapping:
+2023-06-12 10:50:50 :: INFO ::   Stream #0:0 -> #0:0 (vp9 (native) -> prores (native))
+2023-06-12 10:50:50 :: INFO ::   Stream #0:1 -> #0:1 (opus (native) -> pcm_s24le (native))
+2023-06-12 10:50:50 :: INFO :: Press [q] to stop, [?] for help
+2023-06-12 10:50:50 :: INFO :: Output #0, mov, to '/Users/jermainebattle/Desktop/YT_Downloads/.encoding/PopCorners_Breaking_Bad_Super_Bowl_Commercial_Extended_Version.mov':
+2023-06-12 10:50:50 :: INFO ::   Metadata:
+2023-06-12 10:50:50 :: INFO ::     encoder         : Lavf60.3.100
+2023-06-12 10:50:50 :: INFO ::   Stream #0:0(eng): Video: prores (Standard) (apcn / 0x6E637061), yuv422p10le(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 59.94 fps, 11988 tbn (default)
+2023-06-12 10:50:50 :: INFO ::     Metadata:
+2023-06-12 10:50:50 :: INFO ::       DURATION        : 00:01:30.090000000
+2023-06-12 10:50:50 :: INFO ::       encoder         : Lavc60.3.100 prores
+2023-06-12 10:50:50 :: INFO ::   Stream #0:1(eng): Audio: pcm_s24le (in24 / 0x34326E69), 48000 Hz, stereo, s32, 2304 kb/s (default)
+2023-06-12 10:50:50 :: INFO ::     Metadata:
+2023-06-12 10:50:50 :: INFO ::       DURATION        : 00:01:30.128000000
+2023-06-12 10:50:50 :: INFO ::       encoder         : Lavc60.3.100 pcm_s24le
+2023-06-12 10:50:51 :: INFO :: frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:00.36 bitrate=   0.8kbits/s speed=60.8x
+2023-06-12 10:50:51 :: INFO :: frame=  170 fps=0.0 q=-0.0 size=   91392kB time=00:00:03.42 bitrate=218849.3kbits/s dup=108 drop=0 speed=6.65x
+2023-06-12 10:50:52 :: INFO :: frame=  365 fps=358 q=-0.0 size=  188928kB time=00:00:06.68 bitrate=231656.7kbits/s dup=225 drop=0 speed=6.55x
+2023-06-12 10:50:52 :: INFO :: frame=  613 fps=400 q=-0.0 size=  245248kB time=00:00:10.76 bitrate=186699.4kbits/s dup=373 drop=0 speed=7.03x
+2023-06-12 10:50:53 :: INFO :: frame=  855 fps=421 q=-0.0 size=  297984kB time=00:00:14.82 bitrate=164704.5kbits/s dup=519 drop=0 speed=7.29x
+2023-06-12 10:50:53 :: INFO :: frame= 1072 fps=423 q=-0.0 size=  363520kB time=00:00:18.48 bitrate=161136.1kbits/s dup=650 drop=0 speed=7.29x
+2023-06-12 10:50:54 :: INFO :: frame= 1247 fps=410 q=-0.0 size=  435456kB time=00:00:21.36 bitrate=166998.5kbits/s dup=754 drop=0 speed=7.03x
+2023-06-12 10:50:54 :: INFO :: frame= 1434 fps=404 q=-0.0 size=  507392kB time=00:00:24.50 bitrate=169648.4kbits/s dup=867 drop=0 speed= 6.9x
+2023-06-12 10:50:54 :: INFO :: frame= 1633 fps=403 q=-0.0 size=  585472kB time=00:00:27.82 bitrate=172394.5kbits/s dup=987 drop=0 speed=6.86x
+2023-06-12 10:50:54 :: INFO :: [vost#0:0/prores @ 0x145805ba0] More than 1000 frames duplicated
+2023-06-12 10:50:55 :: INFO :: frame= 1825 fps=400 q=-0.0 size=  666112kB time=00:00:31.00 bitrate=176019.8kbits/s dup=1101 drop=0 speed= 6.8x
+2023-06-12 10:50:56 :: INFO :: frame= 2033 fps=401 q=-0.0 size=  743680kB time=00:00:34.46 bitrate=176786.1kbits/s dup=1226 drop=0 speed= 6.8x
+2023-06-12 10:50:56 :: INFO :: frame= 2235 fps=401 q=-0.0 size=  822784kB time=00:00:37.84 bitrate=178120.2kbits/s dup=1347 drop=0 speed= 6.8x
+2023-06-12 10:50:57 :: INFO :: frame= 2411 fps=397 q=-0.0 size=  891136kB time=00:00:40.78 bitrate=179009.5kbits/s dup=1454 drop=0 speed=6.72x
+2023-06-12 10:50:57 :: INFO :: frame= 2610 fps=397 q=-0.0 size=  971776kB time=00:00:44.14 bitrate=180349.1kbits/s dup=1572 drop=0 speed=6.72x
+2023-06-12 10:50:58 :: INFO :: frame= 2805 fps=397 q=-0.0 size= 1052160kB time=00:00:47.34 bitrate=182068.3kbits/s dup=1689 drop=0 speed=6.69x
+2023-06-12 10:50:58 :: INFO :: frame= 3016 fps=398 q=-0.0 size= 1125632kB time=00:00:50.86 bitrate=181301.5kbits/s dup=1815 drop=0 speed=6.71x
+2023-06-12 10:50:59 :: INFO :: frame= 3218 fps=398 q=-0.0 size= 1198080kB time=00:00:54.22 bitrate=181012.4kbits/s dup=1936 drop=0 speed=6.71x
+2023-06-12 10:50:59 :: INFO :: frame= 3397 fps=396 q=-0.0 size= 1270272kB time=00:00:57.24 bitrate=181794.0kbits/s dup=2044 drop=0 speed=6.66x
+2023-06-12 10:51:00 :: INFO :: frame= 3580 fps=394 q=-0.0 size= 1342464kB time=00:01:00.28 bitrate=182436.7kbits/s dup=2154 drop=0 speed=6.63x
+2023-06-12 10:51:00 :: INFO :: frame= 3762 fps=392 q=-0.0 size= 1406720kB time=00:01:03.36 bitrate=181876.1kbits/s dup=2264 drop=0 speed= 6.6x
+2023-06-12 10:51:01 :: INFO :: frame= 3949 fps=391 q=-0.0 size= 1486080kB time=00:01:06.44 bitrate=183229.7kbits/s dup=2376 drop=0 speed=6.58x
+2023-06-12 10:51:01 :: INFO :: frame= 4160 fps=392 q=-0.0 size= 1563904kB time=00:01:10.00 bitrate=183018.8kbits/s dup=2503 drop=0 speed= 6.6x
+2023-06-12 10:51:02 :: INFO :: frame= 4359 fps=392 q=-0.0 size= 1639936kB time=00:01:13.30 bitrate=183276.6kbits/s dup=2621 drop=0 speed= 6.6x
+2023-06-12 10:51:02 :: INFO :: frame= 4557 fps=392 q=-0.0 size= 1721600kB time=00:01:16.62 bitrate=184066.3kbits/s dup=2740 drop=0 speed= 6.6x
+2023-06-12 10:51:03 :: INFO :: frame= 4748 fps=392 q=-0.0 size= 1795584kB time=00:01:19.76 bitrate=184418.8kbits/s dup=2854 drop=0 speed=6.58x
+2023-06-12 10:51:03 :: INFO :: frame= 4935 fps=391 q=-0.0 size= 1873920kB time=00:01:22.88 bitrate=185219.2kbits/s dup=2967 drop=0 speed=6.57x
+2023-06-12 10:51:04 :: INFO :: frame= 5094 fps=388 q=-0.0 size= 1961472kB time=00:01:25.56 bitrate=187800.3kbits/s dup=3062 drop=0 speed=6.51x
+2023-06-12 10:51:04 :: INFO :: frame= 5234 fps=384 q=-0.0 size= 2051328kB time=00:01:27.88 bitrate=191218.6kbits/s dup=3146 drop=0 speed=6.44x
+2023-06-12 10:51:04 :: INFO :: frame= 5379 fps=380 q=-0.0 size= 2141440kB time=00:01:30.10 bitrate=194700.1kbits/s dup=3234 drop=0 speed=6.37x
+2023-06-12 10:51:04 :: INFO :: frame= 5400 fps=380 q=-0.0 Lsize= 2155110kB time=00:01:30.10 bitrate=195943.0kbits/s dup=3241 drop=0 speed=6.34x
+2023-06-12 10:51:04 :: INFO :: video:2129691kB audio:25342kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.003554%
+2023-06-12 10:51:04 :: INFO :: -------------------------------------------------------------------------
+2023-06-12 10:51:04 :: INFO :: -------------------------------------------------------------------------
+2023-06-12 10:51:04 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-06-12 10:51:04 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-06-12 10:51:04 :: INFO :: Files will be downloaded to: /Users/jermainebattle/Desktop/YT_Downloads/
+2023-06-12 10:51:04 :: INFO :: Files will be downloaded to: /Users/jermainebattle/Desktop/YT_Downloads/
+2023-06-12 10:51:04 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-06-12 10:51:04 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-06-12 10:51:04 :: INFO :: Selected output resolution: 1920x1080
+2023-06-12 10:51:04 :: INFO :: Selected output resolution: 1920x1080
+2023-06-12 10:51:04 :: INFO :: -------------------------------------------------------------------------
+
+2023-06-12 10:51:04 :: INFO :: -------------------------------------------------------------------------
+
+2023-06-12 11:50:12 :: INFO :: -------------------------------------------------------------------------
+2023-06-12 11:50:12 :: INFO :: -------------------------------------------------------------------------
+2023-06-12 11:50:12 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-06-12 11:50:12 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-06-12 11:50:12 :: INFO :: Files will be downloaded to: /Users/jermainebattle/Desktop/YT_Downloads/
+2023-06-12 11:50:12 :: INFO :: Files will be downloaded to: /Users/jermainebattle/Desktop/YT_Downloads/
+2023-06-12 11:50:12 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-06-12 11:50:12 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-06-12 11:50:12 :: INFO :: Selected output resolution: 1920x1080
+2023-06-12 11:50:12 :: INFO :: Selected output resolution: 1920x1080
+2023-06-12 11:50:12 :: INFO :: -------------------------------------------------------------------------
+
+2023-06-12 11:50:12 :: INFO :: -------------------------------------------------------------------------
+

@@ -235,6 +235,7 @@ def get_url():
         path = re.sub('\\\\', '', url).strip()
         if check_path(path):
             return path
+        print("working!")
         log.warning('Something went wrong, please ensure you entered a valid URL or file path.')
 
 

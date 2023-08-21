@@ -11,4 +11,4 @@ git pull origin main
 
 # Run
 source .env/bin/activate
-./youtube_dl_extreme2.py "$@"
+./youtube_dl_extreme.py "$@"

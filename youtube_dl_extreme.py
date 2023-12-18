@@ -180,19 +180,43 @@ FFMPEG_PRORES_LETTERBOX_CAPS = ['ffmpeg', '-i',
                                 '-c:a pcm_s24le',
                                 '-ar 48000',
                                 '{outpath}']
+
+
+
+# -----------------------------------------
+# DEPRECATED LIST
+# SEE BELOW LIST FOR UPDATE
+# -----------------------------------------
+# FFMPEG_MONOFIX = ['rm Temp_mono.mov;',
+#                  'ffmpeg', '-i',
+#                  '{inpath}', 
+#                  '-c:v copy',
+#                  '-ac 1',
+#                  'Temp_Mono.mov',
+#                  '&&',
+#                  'ffmpeg', '-i',
+#                  'Temp_Mono.mov', 
+#                  '-c:v copy',
+#                  '-ac 2',
+#                  '{outpath}',
+#                  '&& rm Temp_Mono.mov'] 
+# -----------------------------------------
+# SEE LIST BELOW FOR UPDATE
+# -----------------------------------------
+
+
+# LIST UPDATED TO ACCOMODATE MONO --> STEREO FUNCTIONALITY
 FFMPEG_MONOFIX = ['rm Temp_mono.mov;',
                  'ffmpeg', '-i',
-                 '{inpath}', 
-                 '-c:v copy',
-                 '-ac 1',
-                 'Temp_Mono.mov',
-                 '&&',
-                 'ffmpeg', '-i',
+                 '{inpath}',
                  'Temp_Mono.mov', 
                  '-c:v copy',
                  '-ac 2',
                  '{outpath}',
-                 '&& rm Temp_Mono.mov']     
+                 '&& rm Temp_Mono.mov']
+
+
+
 FFMPEG_NORM =   [' && ffmpeg-normalize',
                 '{outpath}',
                 '-o',

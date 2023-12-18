@@ -9130,3 +9130,393 @@
 
 2023-08-21 15:12:46 :: INFO :: -------------------------------------------------------------------------
 
+2023-12-18 14:16:18 :: INFO :: -------------------------------------------------------------------------
+2023-12-18 14:16:18 :: INFO :: -------------------------------------------------------------------------
+2023-12-18 14:16:18 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-12-18 14:16:18 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-12-18 14:16:18 :: INFO :: Files will be downloaded to: /Users/epsbo/Desktop/YT_Downloads/
+2023-12-18 14:16:18 :: INFO :: Files will be downloaded to: /Users/epsbo/Desktop/YT_Downloads/
+2023-12-18 14:16:18 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-12-18 14:16:18 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-12-18 14:16:18 :: INFO :: Selected output resolution: 1920x1080
+2023-12-18 14:16:18 :: INFO :: Selected output resolution: 1920x1080
+2023-12-18 14:16:18 :: INFO :: -------------------------------------------------------------------------
+
+2023-12-18 14:16:18 :: INFO :: -------------------------------------------------------------------------
+
+2023-12-18 14:16:33 :: INFO :: subprocess call: ['ffprobe', '-v', 'quiet', '-print_format', 'json', '-show_format', '-show_streams', '/Users/epsbo/Desktop/YT_Downloads/.downloading/Sequence_01.mp4']
+2023-12-18 14:16:33 :: INFO :: No Scale/Letterbox, No captions
+2023-12-18 14:16:33 :: INFO :: No Scale/Letterbox, No captions
+2023-12-18 14:16:33 :: INFO :: Fixing audio channels
+2023-12-18 14:16:33 :: INFO :: Fixing audio channels
+2023-12-18 14:16:33 :: INFO :: subprocess call: rm Temp_mono.mov; ffmpeg -i /Users/epsbo/Desktop/YT_Downloads/.downloading/Sequence_01.mp4 -c:v copy -ac 1 Temp_Mono.mov && ffmpeg -i Temp_Mono.mov -c:v copy -ac 2 /Users/epsbo/Desktop/YT_Downloads/.encoding/Sequence_01.mov && rm Temp_Mono.mov
+2023-12-18 14:16:33 :: INFO :: rm: Temp_mono.mov: No such file or directory
+2023-12-18 14:16:33 :: INFO :: ffmpeg version 6.0 Copyright (c) 2000-2023 the FFmpeg developers
+2023-12-18 14:16:33 :: INFO ::   built with Apple clang version 13.0.0 (clang-1300.0.29.30)
+2023-12-18 14:16:33 :: INFO ::   configuration: --prefix=/usr/local/Cellar/ffmpeg/6.0_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+2023-12-18 14:16:33 :: INFO ::   libavutil      58.  2.100 / 58.  2.100
+2023-12-18 14:16:33 :: INFO ::   libavcodec     60.  3.100 / 60.  3.100
+2023-12-18 14:16:33 :: INFO ::   libavformat    60.  3.100 / 60.  3.100
+2023-12-18 14:16:33 :: INFO ::   libavdevice    60.  1.100 / 60.  1.100
+2023-12-18 14:16:33 :: INFO ::   libavfilter     9.  3.100 /  9.  3.100
+2023-12-18 14:16:33 :: INFO ::   libswscale      7.  1.100 /  7.  1.100
+2023-12-18 14:16:33 :: INFO ::   libswresample   4. 10.100 /  4. 10.100
+2023-12-18 14:16:33 :: INFO ::   libpostproc    57.  1.100 / 57.  1.100
+2023-12-18 14:16:33 :: INFO :: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/epsbo/Desktop/YT_Downloads/.downloading/Sequence_01.mp4':
+2023-12-18 14:16:33 :: INFO ::   Metadata:
+2023-12-18 14:16:33 :: INFO ::     major_brand     : mp42
+2023-12-18 14:16:33 :: INFO ::     minor_version   : 0
+2023-12-18 14:16:33 :: INFO ::     compatible_brands: mp42mp41
+2023-12-18 14:16:33 :: INFO ::     creation_time   : 2023-12-18T22:10:49.000000Z
+2023-12-18 14:16:33 :: INFO ::   Duration: 00:03:12.51, start: 0.000000, bitrate: 3128 kb/s
+2023-12-18 14:16:33 :: INFO ::   Stream #0:0[0x1](eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2854 kb/s, 59.94 fps, 59.94 tbr, 60k tbn (default)
+2023-12-18 14:16:33 :: INFO ::     Metadata:
+2023-12-18 14:16:33 :: INFO ::       creation_time   : 2023-12-18T22:10:50.000000Z
+2023-12-18 14:16:33 :: INFO ::       handler_name    : ?Mainconcept Video Media Handler
+2023-12-18 14:16:33 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:16:33 :: INFO ::       encoder         : AVC Coding
+2023-12-18 14:16:33 :: INFO ::   Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 253 kb/s (default)
+2023-12-18 14:16:33 :: INFO ::     Metadata:
+2023-12-18 14:16:33 :: INFO ::       creation_time   : 2023-12-18T22:10:51.000000Z
+2023-12-18 14:16:33 :: INFO ::       handler_name    : #Mainconcept MP4 Sound Media Handler
+2023-12-18 14:16:33 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:16:33 :: INFO :: Stream mapping:
+2023-12-18 14:16:33 :: INFO ::   Stream #0:0 -> #0:0 (copy)
+2023-12-18 14:16:33 :: INFO ::   Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+2023-12-18 14:16:33 :: INFO :: Press [q] to stop, [?] for help
+2023-12-18 14:16:33 :: INFO :: Output #0, mov, to 'Temp_Mono.mov':
+2023-12-18 14:16:33 :: INFO ::   Metadata:
+2023-12-18 14:16:33 :: INFO ::     major_brand     : mp42
+2023-12-18 14:16:33 :: INFO ::     minor_version   : 0
+2023-12-18 14:16:33 :: INFO ::     compatible_brands: mp42mp41
+2023-12-18 14:16:33 :: INFO ::     encoder         : Lavf60.3.100
+2023-12-18 14:16:33 :: INFO ::   Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 2854 kb/s, 59.94 fps, 59.94 tbr, 60k tbn (default)
+2023-12-18 14:16:33 :: INFO ::     Metadata:
+2023-12-18 14:16:33 :: INFO ::       creation_time   : 2023-12-18T22:10:50.000000Z
+2023-12-18 14:16:33 :: INFO ::       handler_name    : ?Mainconcept Video Media Handler
+2023-12-18 14:16:33 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:16:33 :: INFO ::       encoder         : AVC Coding
+2023-12-18 14:16:33 :: INFO ::   Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 69 kb/s (default)
+2023-12-18 14:16:33 :: INFO ::     Metadata:
+2023-12-18 14:16:33 :: INFO ::       creation_time   : 2023-12-18T22:10:51.000000Z
+2023-12-18 14:16:33 :: INFO ::       handler_name    : #Mainconcept MP4 Sound Media Handler
+2023-12-18 14:16:33 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:16:33 :: INFO ::       encoder         : Lavc60.3.100 aac
+2023-12-18 14:16:34 :: INFO :: frame=   10 fps=0.0 q=-1.0 size=       0kB time=00:00:00.13 bitrate=   2.2kbits/s speed= 856x
+2023-12-18 14:16:34 :: INFO :: frame= 5540 fps=0.0 q=-1.0 size=   30208kB time=00:01:32.40 bitrate=2677.9kbits/s speed= 185x
+2023-12-18 14:16:34 :: INFO :: frame=10960 fps=10957 q=-1.0 size=   64768kB time=00:03:02.83 bitrate=2902.0kbits/s speed= 183x
+2023-12-18 14:16:34 :: INFO :: frame=11539 fps=10950 q=-1.0 Lsize=   67809kB time=00:03:12.49 bitrate=2885.8kbits/s speed= 183x
+2023-12-18 14:16:34 :: INFO :: video:67073kB audio:435kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.447049%
+2023-12-18 14:16:34 :: INFO :: [aac @ 0x7fa30a707940] Qavg: 53805.113
+2023-12-18 14:16:34 :: INFO :: ffmpeg version 6.0 Copyright (c) 2000-2023 the FFmpeg developers
+2023-12-18 14:16:34 :: INFO ::   built with Apple clang version 13.0.0 (clang-1300.0.29.30)
+2023-12-18 14:16:34 :: INFO ::   configuration: --prefix=/usr/local/Cellar/ffmpeg/6.0_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+2023-12-18 14:16:34 :: INFO ::   libavutil      58.  2.100 / 58.  2.100
+2023-12-18 14:16:34 :: INFO ::   libavcodec     60.  3.100 / 60.  3.100
+2023-12-18 14:16:34 :: INFO ::   libavformat    60.  3.100 / 60.  3.100
+2023-12-18 14:16:34 :: INFO ::   libavdevice    60.  1.100 / 60.  1.100
+2023-12-18 14:16:34 :: INFO ::   libavfilter     9.  3.100 /  9.  3.100
+2023-12-18 14:16:34 :: INFO ::   libswscale      7.  1.100 /  7.  1.100
+2023-12-18 14:16:34 :: INFO ::   libswresample   4. 10.100 /  4. 10.100
+2023-12-18 14:16:34 :: INFO ::   libpostproc    57.  1.100 / 57.  1.100
+2023-12-18 14:16:34 :: INFO :: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'Temp_Mono.mov':
+2023-12-18 14:16:34 :: INFO ::   Metadata:
+2023-12-18 14:16:34 :: INFO ::     major_brand     : qt
+2023-12-18 14:16:34 :: INFO ::     minor_version   : 512
+2023-12-18 14:16:34 :: INFO ::     compatible_brands: qt
+2023-12-18 14:16:34 :: INFO ::     encoder         : Lavf60.3.100
+2023-12-18 14:16:34 :: INFO ::   Duration: 00:03:12.51, start: 0.000000, bitrate: 2885 kb/s
+2023-12-18 14:16:34 :: INFO ::   Stream #0:0[0x1](eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2854 kb/s, 59.94 fps, 59.94 tbr, 60k tbn (default)
+2023-12-18 14:16:34 :: INFO ::     Metadata:
+2023-12-18 14:16:34 :: INFO ::       handler_name    : ?Mainconcept Video Media Handler
+2023-12-18 14:16:34 :: INFO ::       vendor_id       : FFMP
+2023-12-18 14:16:34 :: INFO ::       encoder         : AVC Coding
+2023-12-18 14:16:34 :: INFO ::   Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 18 kb/s (default)
+2023-12-18 14:16:34 :: INFO ::     Metadata:
+2023-12-18 14:16:34 :: INFO ::       handler_name    : #Mainconcept MP4 Sound Media Handler
+2023-12-18 14:16:34 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:16:34 :: INFO :: Stream mapping:
+2023-12-18 14:16:34 :: INFO ::   Stream #0:0 -> #0:0 (copy)
+2023-12-18 14:16:34 :: INFO ::   Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+2023-12-18 14:16:34 :: INFO :: Press [q] to stop, [?] for help
+2023-12-18 14:16:34 :: INFO :: Output #0, mov, to '/Users/epsbo/Desktop/YT_Downloads/.encoding/Sequence_01.mov':
+2023-12-18 14:16:34 :: INFO ::   Metadata:
+2023-12-18 14:16:34 :: INFO ::     major_brand     : qt
+2023-12-18 14:16:34 :: INFO ::     minor_version   : 512
+2023-12-18 14:16:34 :: INFO ::     compatible_brands: qt
+2023-12-18 14:16:34 :: INFO ::     encoder         : Lavf60.3.100
+2023-12-18 14:16:34 :: INFO ::   Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 2854 kb/s, 59.94 fps, 59.94 tbr, 60k tbn (default)
+2023-12-18 14:16:34 :: INFO ::     Metadata:
+2023-12-18 14:16:34 :: INFO ::       handler_name    : ?Mainconcept Video Media Handler
+2023-12-18 14:16:34 :: INFO ::       vendor_id       : FFMP
+2023-12-18 14:16:34 :: INFO ::       encoder         : AVC Coding
+2023-12-18 14:16:34 :: INFO ::   Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+2023-12-18 14:16:34 :: INFO ::     Metadata:
+2023-12-18 14:16:34 :: INFO ::       handler_name    : #Mainconcept MP4 Sound Media Handler
+2023-12-18 14:16:34 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:16:34 :: INFO ::       encoder         : Lavc60.3.100 aac
+2023-12-18 14:16:35 :: INFO :: frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x
+2023-12-18 14:16:35 :: INFO :: frame= 2365 fps=0.0 q=-1.0 size=   11776kB time=00:00:39.42 bitrate=2447.0kbits/s speed=78.8x
+2023-12-18 14:16:36 :: INFO :: frame= 4161 fps=4160 q=-1.0 size=   23296kB time=00:01:09.40 bitrate=2749.8kbits/s speed=69.4x
+2023-12-18 14:16:36 :: INFO :: frame= 6226 fps=4150 q=-1.0 size=   35328kB time=00:01:43.85 bitrate=2786.7kbits/s speed=69.2x
+2023-12-18 14:16:37 :: INFO :: frame= 8138 fps=4068 q=-1.0 size=   46848kB time=00:02:15.75 bitrate=2827.1kbits/s speed=67.9x
+2023-12-18 14:16:37 :: INFO :: frame=10034 fps=4012 q=-1.0 size=   58624kB time=00:02:47.38 bitrate=2869.1kbits/s speed=66.9x
+2023-12-18 14:16:37 :: INFO :: frame=11539 fps=4003 q=-1.0 Lsize=   67896kB time=00:03:12.49 bitrate=2889.5kbits/s speed=66.8x
+2023-12-18 14:16:37 :: INFO :: video:67073kB audio:522kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.446471%
+2023-12-18 14:16:37 :: INFO :: [aac @ 0x7fe8d8437f40] Qavg: 62922.035
+2023-12-18 14:16:37 :: INFO :: -------------------------------------------------------------------------
+2023-12-18 14:16:37 :: INFO :: -------------------------------------------------------------------------
+2023-12-18 14:16:37 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-12-18 14:16:37 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-12-18 14:16:37 :: INFO :: Files will be downloaded to: /Users/epsbo/Desktop/YT_Downloads/
+2023-12-18 14:16:37 :: INFO :: Files will be downloaded to: /Users/epsbo/Desktop/YT_Downloads/
+2023-12-18 14:16:37 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-12-18 14:16:37 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-12-18 14:16:37 :: INFO :: Selected output resolution: 1920x1080
+2023-12-18 14:16:37 :: INFO :: Selected output resolution: 1920x1080
+2023-12-18 14:16:37 :: INFO :: -------------------------------------------------------------------------
+
+2023-12-18 14:16:37 :: INFO :: -------------------------------------------------------------------------
+
+2023-12-18 14:57:50 :: INFO :: -------------------------------------------------------------------------
+2023-12-18 14:57:50 :: INFO :: -------------------------------------------------------------------------
+2023-12-18 14:57:50 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-12-18 14:57:50 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-12-18 14:57:50 :: INFO :: Files will be downloaded to: /Users/epsbo/Desktop/YT_Downloads/
+2023-12-18 14:57:50 :: INFO :: Files will be downloaded to: /Users/epsbo/Desktop/YT_Downloads/
+2023-12-18 14:57:50 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-12-18 14:57:50 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-12-18 14:57:50 :: INFO :: Selected output resolution: 1920x1080
+2023-12-18 14:57:50 :: INFO :: Selected output resolution: 1920x1080
+2023-12-18 14:57:50 :: INFO :: -------------------------------------------------------------------------
+
+2023-12-18 14:57:50 :: INFO :: -------------------------------------------------------------------------
+
+2023-12-18 14:58:08 :: INFO :: subprocess call: ['ffprobe', '-v', 'quiet', '-print_format', 'json', '-show_format', '-show_streams', '/Users/epsbo/Desktop/YT_Downloads/.downloading/Sequence_01.mp4']
+2023-12-18 14:58:08 :: INFO :: No Scale/Letterbox, No captions
+2023-12-18 14:58:08 :: INFO :: No Scale/Letterbox, No captions
+2023-12-18 14:58:08 :: INFO :: Fixing audio channels
+2023-12-18 14:58:08 :: INFO :: Fixing audio channels
+2023-12-18 14:58:08 :: INFO :: subprocess call: rm Temp_mono.mov; ffmpeg -i /Users/epsbo/Desktop/YT_Downloads/.downloading/Sequence_01.mp4 Temp_Mono.mov -c:v copy -ac 2 /Users/epsbo/Desktop/YT_Downloads/.encoding/Sequence_01.mov && rm Temp_Mono.mov
+2023-12-18 14:58:08 :: INFO :: rm: Temp_mono.mov: No such file or directory
+2023-12-18 14:58:08 :: INFO :: ffmpeg version 6.0 Copyright (c) 2000-2023 the FFmpeg developers
+2023-12-18 14:58:08 :: INFO ::   built with Apple clang version 13.0.0 (clang-1300.0.29.30)
+2023-12-18 14:58:08 :: INFO ::   configuration: --prefix=/usr/local/Cellar/ffmpeg/6.0_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+2023-12-18 14:58:08 :: INFO ::   libavutil      58.  2.100 / 58.  2.100
+2023-12-18 14:58:08 :: INFO ::   libavcodec     60.  3.100 / 60.  3.100
+2023-12-18 14:58:08 :: INFO ::   libavformat    60.  3.100 / 60.  3.100
+2023-12-18 14:58:08 :: INFO ::   libavdevice    60.  1.100 / 60.  1.100
+2023-12-18 14:58:08 :: INFO ::   libavfilter     9.  3.100 /  9.  3.100
+2023-12-18 14:58:08 :: INFO ::   libswscale      7.  1.100 /  7.  1.100
+2023-12-18 14:58:08 :: INFO ::   libswresample   4. 10.100 /  4. 10.100
+2023-12-18 14:58:08 :: INFO ::   libpostproc    57.  1.100 / 57.  1.100
+2023-12-18 14:58:08 :: INFO :: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/epsbo/Desktop/YT_Downloads/.downloading/Sequence_01.mp4':
+2023-12-18 14:58:08 :: INFO ::   Metadata:
+2023-12-18 14:58:08 :: INFO ::     major_brand     : mp42
+2023-12-18 14:58:08 :: INFO ::     minor_version   : 0
+2023-12-18 14:58:08 :: INFO ::     compatible_brands: mp42mp41
+2023-12-18 14:58:08 :: INFO ::     creation_time   : 2023-12-18T22:10:49.000000Z
+2023-12-18 14:58:08 :: INFO ::   Duration: 00:03:12.51, start: 0.000000, bitrate: 3128 kb/s
+2023-12-18 14:58:08 :: INFO ::   Stream #0:0[0x1](eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2854 kb/s, 59.94 fps, 59.94 tbr, 60k tbn (default)
+2023-12-18 14:58:08 :: INFO ::     Metadata:
+2023-12-18 14:58:08 :: INFO ::       creation_time   : 2023-12-18T22:10:50.000000Z
+2023-12-18 14:58:08 :: INFO ::       handler_name    : ?Mainconcept Video Media Handler
+2023-12-18 14:58:08 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:58:08 :: INFO ::       encoder         : AVC Coding
+2023-12-18 14:58:08 :: INFO ::   Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 253 kb/s (default)
+2023-12-18 14:58:08 :: INFO ::     Metadata:
+2023-12-18 14:58:08 :: INFO ::       creation_time   : 2023-12-18T22:10:51.000000Z
+2023-12-18 14:58:08 :: INFO ::       handler_name    : #Mainconcept MP4 Sound Media Handler
+2023-12-18 14:58:08 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:58:08 :: INFO :: Stream mapping:
+2023-12-18 14:58:08 :: INFO ::   Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+2023-12-18 14:58:08 :: INFO ::   Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+2023-12-18 14:58:08 :: INFO ::   Stream #0:0 -> #1:0 (copy)
+2023-12-18 14:58:08 :: INFO ::   Stream #0:1 -> #1:1 (aac (native) -> aac (native))
+2023-12-18 14:58:08 :: INFO :: Press [q] to stop, [?] for help
+2023-12-18 14:58:08 :: INFO :: Output #1, mov, to '/Users/epsbo/Desktop/YT_Downloads/.encoding/Sequence_01.mov':
+2023-12-18 14:58:08 :: INFO ::   Metadata:
+2023-12-18 14:58:08 :: INFO ::     major_brand     : mp42
+2023-12-18 14:58:08 :: INFO ::     minor_version   : 0
+2023-12-18 14:58:08 :: INFO ::     compatible_brands: mp42mp41
+2023-12-18 14:58:08 :: INFO ::     encoder         : Lavf60.3.100
+2023-12-18 14:58:08 :: INFO ::   Stream #1:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 2854 kb/s, 59.94 fps, 59.94 tbr, 60k tbn (default)
+2023-12-18 14:58:08 :: INFO ::     Metadata:
+2023-12-18 14:58:08 :: INFO ::       creation_time   : 2023-12-18T22:10:50.000000Z
+2023-12-18 14:58:08 :: INFO ::       handler_name    : ?Mainconcept Video Media Handler
+2023-12-18 14:58:08 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:58:08 :: INFO ::       encoder         : AVC Coding
+2023-12-18 14:58:08 :: INFO ::   Stream #1:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+2023-12-18 14:58:08 :: INFO ::     Metadata:
+2023-12-18 14:58:08 :: INFO ::       creation_time   : 2023-12-18T22:10:51.000000Z
+2023-12-18 14:58:08 :: INFO ::       handler_name    : #Mainconcept MP4 Sound Media Handler
+2023-12-18 14:58:08 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:58:08 :: INFO ::       encoder         : Lavc60.3.100 aac
+2023-12-18 14:58:09 :: INFO :: [libx264 @ 0x7faa0f50ab40] using SAR=1/1
+2023-12-18 14:58:09 :: INFO :: [libx264 @ 0x7faa0f50ab40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+2023-12-18 14:58:09 :: INFO :: [libx264 @ 0x7faa0f50ab40] profile High, level 4.2, 4:2:0, 8-bit
+2023-12-18 14:58:09 :: INFO :: [libx264 @ 0x7faa0f50ab40] 264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+2023-12-18 14:58:09 :: INFO :: Output #0, mov, to 'Temp_Mono.mov':
+2023-12-18 14:58:09 :: INFO ::   Metadata:
+2023-12-18 14:58:09 :: INFO ::     major_brand     : mp42
+2023-12-18 14:58:09 :: INFO ::     minor_version   : 0
+2023-12-18 14:58:09 :: INFO ::     compatible_brands: mp42mp41
+2023-12-18 14:58:09 :: INFO ::     encoder         : Lavf60.3.100
+2023-12-18 14:58:09 :: INFO ::   Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 59.94 fps, 60k tbn (default)
+2023-12-18 14:58:09 :: INFO ::     Metadata:
+2023-12-18 14:58:09 :: INFO ::       creation_time   : 2023-12-18T22:10:50.000000Z
+2023-12-18 14:58:09 :: INFO ::       handler_name    : ?Mainconcept Video Media Handler
+2023-12-18 14:58:09 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:58:09 :: INFO ::       encoder         : Lavc60.3.100 libx264
+2023-12-18 14:58:09 :: INFO ::     Side data:
+2023-12-18 14:58:09 :: INFO ::       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+2023-12-18 14:58:09 :: INFO ::   Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 69 kb/s (default)
+2023-12-18 14:58:09 :: INFO ::     Metadata:
+2023-12-18 14:58:09 :: INFO ::       creation_time   : 2023-12-18T22:10:51.000000Z
+2023-12-18 14:58:09 :: INFO ::       handler_name    : #Mainconcept MP4 Sound Media Handler
+2023-12-18 14:58:09 :: INFO ::       vendor_id       : [0][0][0][0]
+2023-12-18 14:58:09 :: INFO ::       encoder         : Lavc60.3.100 aac
+2023-12-18 14:58:09 :: INFO :: frame=    0 fps=0.0 q=0.0 q=-1.0 size=       0kB time=00:00:00.20 bitrate=   1.4kbits/s speed=7.95x
+2023-12-18 14:58:10 :: INFO :: frame=   60 fps=0.0 q=31.0 q=-1.0 size=       0kB time=00:00:02.23 bitrate=   0.1kbits/s speed=4.25x
+2023-12-18 14:58:10 :: INFO :: frame=  180 fps=175 q=31.0 q=-1.0 size=       0kB time=00:00:04.23 bitrate=   0.1kbits/s speed=4.12x
+2023-12-18 14:58:11 :: INFO :: frame=  295 fps=193 q=31.0 q=-1.0 size=       0kB time=00:00:06.13 bitrate=   0.0kbits/s speed=4.01x
+2023-12-18 14:58:11 :: INFO :: frame=  420 fps=206 q=31.0 q=-1.0 size=     256kB time=00:00:08.24 bitrate= 254.5kbits/s speed=4.05x
+2023-12-18 14:58:12 :: INFO :: frame=  544 fps=214 q=31.0 q=-1.0 size=     256kB time=00:00:10.29 bitrate= 203.8kbits/s speed=4.05x
+2023-12-18 14:58:12 :: INFO :: frame=  670 fps=220 q=31.0 q=-1.0 size=     256kB time=00:00:12.39 bitrate= 169.2kbits/s speed=4.06x
+2023-12-18 14:58:13 :: INFO :: frame=  792 fps=223 q=31.0 q=-1.0 size=     512kB time=00:00:14.44 bitrate= 290.3kbits/s speed=4.07x
+2023-12-18 14:58:13 :: INFO :: frame=  914 fps=225 q=31.0 q=-1.0 size=     512kB time=00:00:16.46 bitrate= 254.7kbits/s speed=4.05x
+2023-12-18 14:58:14 :: INFO :: frame= 1035 fps=226 q=31.0 q=-1.0 size=     512kB time=00:00:18.48 bitrate= 226.9kbits/s speed=4.04x
+2023-12-18 14:58:14 :: INFO :: frame= 1156 fps=228 q=31.0 q=-1.0 size=     768kB time=00:00:20.52 bitrate= 306.6kbits/s speed=4.05x
+2023-12-18 14:58:15 :: INFO :: frame= 1275 fps=229 q=31.0 q=-1.0 size=     768kB time=00:00:22.48 bitrate= 279.8kbits/s speed=4.04x
+2023-12-18 14:58:15 :: INFO :: frame= 1395 fps=230 q=31.0 q=-1.0 size=     768kB time=00:00:24.49 bitrate= 256.9kbits/s speed=4.03x
+2023-12-18 14:58:16 :: INFO :: frame= 1515 fps=230 q=31.0 q=-1.0 size=    1024kB time=00:00:26.49 bitrate= 316.6kbits/s speed=4.03x
+2023-12-18 14:58:16 :: INFO :: frame= 1634 fps=231 q=31.0 q=-1.0 size=    1024kB time=00:00:28.49 bitrate= 294.4kbits/s speed=4.03x
+2023-12-18 14:58:17 :: INFO :: frame= 1749 fps=231 q=31.0 q=-1.0 size=    1024kB time=00:00:30.39 bitrate= 276.0kbits/s speed=4.01x
+2023-12-18 14:58:17 :: INFO :: frame= 1850 fps=229 q=31.0 q=-1.0 size=    1280kB time=00:00:32.09 bitrate= 326.7kbits/s speed=3.97x
+2023-12-18 14:58:18 :: INFO :: frame= 1952 fps=227 q=31.0 q=-1.0 size=    1280kB time=00:00:33.80 bitrate= 310.2kbits/s speed=3.94x
+2023-12-18 14:58:18 :: INFO :: frame= 2055 fps=226 q=31.0 q=-1.0 size=    1536kB time=00:00:35.50 bitrate= 354.4kbits/s speed= 3.9x
+2023-12-18 14:58:19 :: INFO :: frame= 2155 fps=225 q=31.0 q=-1.0 size=    1536kB time=00:00:37.17 bitrate= 338.5kbits/s speed=3.87x
+2023-12-18 14:58:19 :: INFO :: frame= 2252 fps=223 q=31.0 q=-1.0 size=    1536kB time=00:00:38.80 bitrate= 324.3kbits/s speed=3.84x
+2023-12-18 14:58:20 :: INFO :: frame= 2355 fps=222 q=31.0 q=-1.0 size=    1792kB time=00:00:40.50 bitrate= 362.4kbits/s speed=3.82x
+2023-12-18 14:58:20 :: INFO :: frame= 2455 fps=221 q=31.0 q=-1.0 size=    1792kB time=00:00:42.17 bitrate= 348.1kbits/s speed= 3.8x
+2023-12-18 14:58:21 :: INFO :: frame= 2559 fps=220 q=31.0 q=-1.0 size=    2048kB time=00:00:43.91 bitrate= 382.1kbits/s speed=3.78x
+2023-12-18 14:58:21 :: INFO :: frame= 2660 fps=219 q=31.0 q=-1.0 size=    2048kB time=00:00:45.61 bitrate= 367.8kbits/s speed=3.76x
+2023-12-18 14:58:22 :: INFO :: frame= 2764 fps=219 q=31.0 q=-1.0 size=    2048kB time=00:00:47.33 bitrate= 354.5kbits/s speed=3.75x
+2023-12-18 14:58:22 :: INFO :: frame= 2865 fps=218 q=31.0 q=-1.0 size=    2304kB time=00:00:49.01 bitrate= 385.1kbits/s speed=3.73x
+2023-12-18 14:58:23 :: INFO :: frame= 2965 fps=217 q=31.0 q=-1.0 size=    2304kB time=00:00:50.68 bitrate= 372.4kbits/s speed=3.72x
+2023-12-18 14:58:23 :: INFO :: frame= 3065 fps=217 q=31.0 q=-1.0 size=    2304kB time=00:00:52.35 bitrate= 360.5kbits/s speed= 3.7x
+2023-12-18 14:58:24 :: INFO :: frame= 3170 fps=216 q=31.0 q=-1.0 size=    2560kB time=00:00:54.12 bitrate= 387.5kbits/s speed= 3.7x
+2023-12-18 14:58:24 :: INFO :: frame= 3265 fps=215 q=31.0 q=-1.0 size=    2560kB time=00:00:55.68 bitrate= 376.6kbits/s speed=3.68x
+2023-12-18 14:58:25 :: INFO :: frame= 3369 fps=215 q=31.0 q=-1.0 size=    2816kB time=00:00:57.42 bitrate= 401.7kbits/s speed=3.67x
+2023-12-18 14:58:25 :: INFO :: frame= 3470 fps=215 q=31.0 q=-1.0 size=    2816kB time=00:00:59.10 bitrate= 390.3kbits/s speed=3.66x
+2023-12-18 14:58:26 :: INFO :: frame= 3569 fps=214 q=31.0 q=-1.0 size=    2816kB time=00:01:00.77 bitrate= 379.6kbits/s speed=3.65x
+2023-12-18 14:58:26 :: INFO :: frame= 3683 fps=215 q=31.0 q=-1.0 size=    3072kB time=00:01:02.67 bitrate= 401.5kbits/s speed=3.65x
+2023-12-18 14:58:27 :: INFO :: frame= 3796 fps=215 q=31.0 q=-1.0 size=    3072kB time=00:01:04.56 bitrate= 389.8kbits/s speed=3.66x
+2023-12-18 14:58:27 :: INFO :: frame= 3907 fps=215 q=31.0 q=-1.0 size=    3072kB time=00:01:06.41 bitrate= 378.9kbits/s speed=3.66x
+2023-12-18 14:58:28 :: INFO :: frame= 4024 fps=216 q=31.0 q=-1.0 size=    3328kB time=00:01:08.36 bitrate= 398.8kbits/s speed=3.66x
+2023-12-18 14:58:28 :: INFO :: frame= 4135 fps=216 q=31.0 q=-1.0 size=    3328kB time=00:01:10.20 bitrate= 388.3kbits/s speed=3.66x
+2023-12-18 14:58:29 :: INFO :: frame= 4249 fps=216 q=31.0 q=-1.0 size=    3328kB time=00:01:12.12 bitrate= 378.0kbits/s speed=3.67x
+2023-12-18 14:58:29 :: INFO :: frame= 4355 fps=216 q=31.0 q=-1.0 size=    3584kB time=00:01:13.87 bitrate= 397.4kbits/s speed=3.66x
+2023-12-18 14:58:30 :: INFO :: frame= 4465 fps=216 q=31.0 q=-1.0 size=    3584kB time=00:01:15.70 bitrate= 387.8kbits/s speed=3.66x
+2023-12-18 14:58:30 :: INFO :: frame= 4573 fps=216 q=31.0 q=-1.0 size=    3584kB time=00:01:17.52 bitrate= 378.7kbits/s speed=3.66x
+2023-12-18 14:58:31 :: INFO :: frame= 4688 fps=216 q=31.0 q=-1.0 size=    3840kB time=00:01:19.44 bitrate= 396.0kbits/s speed=3.66x
+2023-12-18 14:58:31 :: INFO :: frame= 4804 fps=216 q=31.0 q=-1.0 size=    3840kB time=00:01:21.38 bitrate= 386.5kbits/s speed=3.67x
+2023-12-18 14:58:32 :: INFO :: frame= 4919 fps=217 q=31.0 q=-1.0 size=    3840kB time=00:01:23.29 bitrate= 377.6kbits/s speed=3.67x
+2023-12-18 14:58:32 :: INFO :: frame= 5034 fps=217 q=31.0 q=-1.0 size=    3840kB time=00:01:25.21 bitrate= 369.1kbits/s speed=3.67x
+2023-12-18 14:58:33 :: INFO :: frame= 5146 fps=217 q=31.0 q=-1.0 size=    4096kB time=00:01:27.08 bitrate= 385.3kbits/s speed=3.68x
+2023-12-18 14:58:33 :: INFO :: frame= 5260 fps=217 q=31.0 q=-1.0 size=    4096kB time=00:01:28.98 bitrate= 377.1kbits/s speed=3.68x
+2023-12-18 14:58:34 :: INFO :: frame= 5362 fps=217 q=31.0 q=-1.0 size=    4352kB time=00:01:30.69 bitrate= 393.1kbits/s speed=3.67x
+2023-12-18 14:58:34 :: INFO :: frame= 5463 fps=217 q=31.0 q=-1.0 size=    4352kB time=00:01:32.35 bitrate= 386.0kbits/s speed=3.66x
+2023-12-18 14:58:35 :: INFO :: frame= 5561 fps=216 q=31.0 q=-1.0 size=    4352kB time=00:01:34.01 bitrate= 379.2kbits/s speed=3.66x
+2023-12-18 14:58:35 :: INFO :: frame= 5659 fps=216 q=31.0 q=-1.0 size=    4608kB time=00:01:35.62 bitrate= 394.7kbits/s speed=3.65x
+2023-12-18 14:58:36 :: INFO :: frame= 5757 fps=216 q=31.0 q=-1.0 size=    4608kB time=00:01:37.26 bitrate= 388.1kbits/s speed=3.64x
+2023-12-18 14:58:36 :: INFO :: frame= 5849 fps=215 q=31.0 q=-1.0 size=    4608kB time=00:01:38.79 bitrate= 382.1kbits/s speed=3.63x
+2023-12-18 14:58:37 :: INFO :: frame= 5946 fps=215 q=31.0 q=-1.0 size=    4864kB time=00:01:40.43 bitrate= 396.7kbits/s speed=3.62x
+2023-12-18 14:58:37 :: INFO :: frame= 6043 fps=214 q=31.0 q=-1.0 size=    4864kB time=00:01:42.05 bitrate= 390.4kbits/s speed=3.62x
+2023-12-18 14:58:38 :: INFO :: frame= 6142 fps=214 q=31.0 q=-1.0 size=    5120kB time=00:01:43.70 bitrate= 404.5kbits/s speed=3.61x
+2023-12-18 14:58:38 :: INFO :: frame= 6244 fps=214 q=31.0 q=-1.0 size=    5120kB time=00:01:45.40 bitrate= 397.9kbits/s speed=3.61x
+2023-12-18 14:58:39 :: INFO :: frame= 6344 fps=213 q=31.0 q=-1.0 size=    5120kB time=00:01:47.07 bitrate= 391.7kbits/s speed= 3.6x
+2023-12-18 14:58:39 :: INFO :: frame= 6439 fps=213 q=31.0 q=-1.0 size=    5376kB time=00:01:48.65 bitrate= 405.3kbits/s speed=3.59x
+2023-12-18 14:58:40 :: INFO :: frame= 6541 fps=213 q=31.0 q=-1.0 size=    5376kB time=00:01:50.34 bitrate= 399.1kbits/s speed=3.59x
+2023-12-18 14:58:40 :: INFO :: frame= 6637 fps=212 q=31.0 q=-1.0 size=    5376kB time=00:01:51.96 bitrate= 393.4kbits/s speed=3.58x
+2023-12-18 14:58:41 :: INFO :: frame= 6736 fps=212 q=31.0 q=-1.0 size=    5632kB time=00:01:53.61 bitrate= 406.1kbits/s speed=3.58x
+2023-12-18 14:58:41 :: INFO :: frame= 6838 fps=212 q=31.0 q=-1.0 size=    5632kB time=00:01:55.31 bitrate= 400.1kbits/s speed=3.58x
+2023-12-18 14:58:42 :: INFO :: frame= 6939 fps=212 q=31.0 q=-1.0 size=    5888kB time=00:01:57.00 bitrate= 412.3kbits/s speed=3.57x
+2023-12-18 14:58:42 :: INFO :: frame= 7038 fps=212 q=31.0 q=-1.0 size=    5888kB time=00:01:58.65 bitrate= 406.5kbits/s speed=3.57x
+2023-12-18 14:58:43 :: INFO :: frame= 7135 fps=211 q=31.0 q=-1.0 size=    5888kB time=00:02:00.25 bitrate= 401.1kbits/s speed=3.56x
+2023-12-18 14:58:43 :: INFO :: frame= 7247 fps=212 q=31.0 q=-1.0 size=    6144kB time=00:02:02.13 bitrate= 412.1kbits/s speed=3.57x
+2023-12-18 14:58:44 :: INFO :: frame= 7363 fps=212 q=31.0 q=-1.0 size=    6144kB time=00:02:04.07 bitrate= 405.7kbits/s speed=3.57x
+2023-12-18 14:58:44 :: INFO :: frame= 7477 fps=212 q=31.0 q=-1.0 size=    6144kB time=00:02:05.97 bitrate= 399.5kbits/s speed=3.57x
+2023-12-18 14:58:45 :: INFO :: frame= 7593 fps=212 q=31.0 q=-1.0 size=    6400kB time=00:02:07.91 bitrate= 409.9kbits/s speed=3.58x
+2023-12-18 14:58:45 :: INFO :: frame= 7704 fps=212 q=31.0 q=-1.0 size=    6400kB time=00:02:09.74 bitrate= 404.1kbits/s speed=3.58x
+2023-12-18 14:58:46 :: INFO :: frame= 7818 fps=213 q=31.0 q=-1.0 size=    6400kB time=00:02:11.66 bitrate= 398.2kbits/s speed=3.58x
+2023-12-18 14:58:46 :: INFO :: frame= 7932 fps=213 q=31.0 q=-1.0 size=    6656kB time=00:02:13.56 bitrate= 408.2kbits/s speed=3.58x
+2023-12-18 14:58:47 :: INFO :: frame= 8051 fps=213 q=31.0 q=-1.0 size=    6656kB time=00:02:15.55 bitrate= 402.3kbits/s speed=3.59x
+2023-12-18 14:58:47 :: INFO :: frame= 8162 fps=213 q=31.0 q=-1.0 size=    6656kB time=00:02:17.38 bitrate= 396.9kbits/s speed=3.59x
+2023-12-18 14:58:48 :: INFO :: frame= 8279 fps=213 q=31.0 q=-1.0 size=    6912kB time=00:02:19.35 bitrate= 406.3kbits/s speed=3.59x
+2023-12-18 14:58:48 :: INFO :: frame= 8395 fps=214 q=31.0 q=-1.0 size=    6912kB time=00:02:21.27 bitrate= 400.8kbits/s speed= 3.6x
+2023-12-18 14:58:49 :: INFO :: frame= 8505 fps=214 q=31.0 q=-1.0 size=    6912kB time=00:02:23.10 bitrate= 395.7kbits/s speed= 3.6x
+2023-12-18 14:58:49 :: INFO :: frame= 8615 fps=214 q=31.0 q=-1.0 size=    6912kB time=00:02:24.94 bitrate= 390.7kbits/s speed= 3.6x
+2023-12-18 14:58:50 :: INFO :: frame= 8727 fps=214 q=31.0 q=-1.0 size=    7168kB time=00:02:26.81 bitrate= 400.0kbits/s speed= 3.6x
+2023-12-18 14:58:50 :: INFO :: frame= 8837 fps=214 q=31.0 q=-1.0 size=    7168kB time=00:02:28.66 bitrate= 395.0kbits/s speed= 3.6x
+2023-12-18 14:58:51 :: INFO :: frame= 8948 fps=214 q=29.0 q=-1.0 size=    7424kB time=00:02:30.51 bitrate= 404.1kbits/s speed= 3.6x
+2023-12-18 14:58:51 :: INFO :: frame= 9051 fps=214 q=31.0 q=-1.0 size=    7424kB time=00:02:32.23 bitrate= 399.5kbits/s speed= 3.6x
+2023-12-18 14:58:52 :: INFO :: frame= 9151 fps=214 q=31.0 q=-1.0 size=    7424kB time=00:02:33.90 bitrate= 395.2kbits/s speed=3.59x
+2023-12-18 14:58:52 :: INFO :: frame= 9252 fps=214 q=31.0 q=-1.0 size=    7680kB time=00:02:35.58 bitrate= 404.4kbits/s speed=3.59x
+2023-12-18 14:58:53 :: INFO :: frame= 9354 fps=213 q=31.0 q=-1.0 size=    7680kB time=00:02:37.29 bitrate= 400.0kbits/s speed=3.59x
+2023-12-18 14:58:53 :: INFO :: frame= 9455 fps=213 q=31.0 q=-1.0 size=    7680kB time=00:02:38.95 bitrate= 395.8kbits/s speed=3.59x
+2023-12-18 14:58:54 :: INFO :: frame= 9558 fps=213 q=31.0 q=-1.0 size=    7936kB time=00:02:40.67 bitrate= 404.6kbits/s speed=3.59x
+2023-12-18 14:58:54 :: INFO :: frame= 9659 fps=213 q=31.0 q=-1.0 size=    7936kB time=00:02:42.37 bitrate= 400.4kbits/s speed=3.58x
+2023-12-18 14:58:55 :: INFO :: frame= 9763 fps=213 q=31.0 q=-1.0 size=    8192kB time=00:02:44.09 bitrate= 409.0kbits/s speed=3.58x
+2023-12-18 14:58:55 :: INFO :: frame= 9860 fps=213 q=31.0 q=-1.0 size=    8192kB time=00:02:45.73 bitrate= 404.9kbits/s speed=3.58x
+2023-12-18 14:58:56 :: INFO :: frame= 9954 fps=212 q=31.0 q=-1.0 size=    8192kB time=00:02:47.28 bitrate= 401.2kbits/s speed=3.57x
+2023-12-18 14:58:56 :: INFO :: frame=10044 fps=212 q=31.0 q=-1.0 size=    8448kB time=00:02:48.80 bitrate= 410.0kbits/s speed=3.56x
+2023-12-18 14:58:57 :: INFO :: frame=10145 fps=212 q=31.0 q=-1.0 size=    8448kB time=00:02:50.47 bitrate= 406.0kbits/s speed=3.56x
+2023-12-18 14:58:57 :: INFO :: frame=10241 fps=212 q=31.0 q=-1.0 size=    8704kB time=00:02:52.08 bitrate= 414.3kbits/s speed=3.56x
+2023-12-18 14:58:58 :: INFO :: frame=10338 fps=212 q=31.0 q=-1.0 size=    8704kB time=00:02:53.70 bitrate= 410.5kbits/s speed=3.55x
+2023-12-18 14:58:58 :: INFO :: frame=10435 fps=211 q=31.0 q=-1.0 size=    8704kB time=00:02:55.30 bitrate= 406.7kbits/s speed=3.55x
+2023-12-18 14:58:59 :: INFO :: frame=10529 fps=211 q=31.0 q=-1.0 size=    8960kB time=00:02:56.89 bitrate= 414.9kbits/s speed=3.55x
+2023-12-18 14:58:59 :: INFO :: frame=10625 fps=211 q=31.0 q=-1.0 size=    8960kB time=00:02:58.47 bitrate= 411.3kbits/s speed=3.54x
+2023-12-18 14:59:00 :: INFO :: frame=10721 fps=211 q=31.0 q=-1.0 size=    8960kB time=00:03:00.09 bitrate= 407.6kbits/s speed=3.54x
+2023-12-18 14:59:00 :: INFO :: frame=10828 fps=211 q=31.0 q=-1.0 size=    9216kB time=00:03:01.86 bitrate= 415.1kbits/s speed=3.54x
+2023-12-18 14:59:01 :: INFO :: frame=10940 fps=211 q=31.0 q=-1.0 size=    9216kB time=00:03:03.75 bitrate= 410.9kbits/s speed=3.54x
+2023-12-18 14:59:01 :: INFO :: frame=11050 fps=211 q=31.0 q=-1.0 size=    9216kB time=00:03:05.58 bitrate= 406.8kbits/s speed=3.54x
+2023-12-18 14:59:02 :: INFO :: frame=11167 fps=211 q=31.0 q=-1.0 size=    9472kB time=00:03:07.52 bitrate= 413.8kbits/s speed=3.54x
+2023-12-18 14:59:02 :: INFO :: frame=11280 fps=211 q=31.0 q=-1.0 size=    9472kB time=00:03:09.42 bitrate= 409.6kbits/s speed=3.55x
+2023-12-18 14:59:03 :: INFO :: frame=11394 fps=211 q=31.0 q=-1.0 size=    9472kB time=00:03:11.32 bitrate= 405.6kbits/s speed=3.55x
+2023-12-18 14:59:03 :: INFO :: frame=11539 fps=212 q=-1.0 Lq=-1.0 size=   10083kB time=00:03:12.49 bitrate= 429.1kbits/s speed=3.54x
+2023-12-18 14:59:03 :: INFO :: video:76431kB audio:1055kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] frame I:52    Avg QP:14.98  size: 34785
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] frame P:4259  Avg QP:21.33  size:  1231
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] frame B:7228  Avg QP:25.70  size:   350
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] consecutive B-frames:  7.7% 15.9% 31.3% 45.1%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] mb I  I16..4: 30.8% 58.4% 10.8%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] mb P  I16..4:  0.8%  1.9%  0.2%  P16..4:  1.1%  0.2%  0.1%  0.0%  0.0%    skip:95.6%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] mb B  I16..4:  0.2%  0.1%  0.0%  B16..8:  1.7%  0.2%  0.0%  direct: 0.1%  skip:97.7%  L0:50.2% L1:48.0% BI: 1.8%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] 8x8 transform intra:60.0% inter:63.8%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] coded y,uvDC,uvAC intra: 9.0% 15.2% 10.7% inter: 0.1% 0.2% 0.0%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] i16 v,h,dc,p: 77% 17%  3%  3%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 56% 10% 31%  1%  0%  0%  0%  0%  1%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 39% 19% 25%  3%  3%  3%  3%  3%  2%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] i8c dc,h,v,p: 74% 10% 15%  1%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] Weighted P-Frames: Y:0.0% UV:0.0%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] ref P L0: 69.5%  5.8% 16.4%  8.3%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] ref B L0: 76.8% 19.9%  3.4%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] ref B L1: 98.3%  1.7%
+2023-12-18 14:59:03 :: INFO :: [libx264 @ 0x7faa0f50ab40] kb/s:398.20
+2023-12-18 14:59:03 :: INFO :: [aac @ 0x7faa0f50bec0] Qavg: 53805.113
+2023-12-18 14:59:03 :: INFO :: [aac @ 0x7faa0f50ec80] Qavg: 58379.922
+2023-12-18 14:59:03 :: INFO :: -------------------------------------------------------------------------
+2023-12-18 14:59:03 :: INFO :: -------------------------------------------------------------------------
+2023-12-18 14:59:03 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-12-18 14:59:03 :: INFO :: Follow instructions to download a YouTube video or convert a local video:
+2023-12-18 14:59:03 :: INFO :: Files will be downloaded to: /Users/epsbo/Desktop/YT_Downloads/
+2023-12-18 14:59:03 :: INFO :: Files will be downloaded to: /Users/epsbo/Desktop/YT_Downloads/
+2023-12-18 14:59:03 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-12-18 14:59:03 :: INFO :: Selected encoding format: prores -profile:v 2 at 59.94 fps
+2023-12-18 14:59:03 :: INFO :: Selected output resolution: 1920x1080
+2023-12-18 14:59:03 :: INFO :: Selected output resolution: 1920x1080
+2023-12-18 14:59:03 :: INFO :: -------------------------------------------------------------------------
+
+2023-12-18 14:59:03 :: INFO :: -------------------------------------------------------------------------
+
